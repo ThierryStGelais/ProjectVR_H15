@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjectVR_v2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{55FC2608-A15D-4183-8C1D-9E2A7D8D2156}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectVR_v2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjectVR_v2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6ACF40E7-1C05-482E-97AB-D57F39560C6E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjectVR_v2">
+			<UniqueIdentifier>{6F78D153-60A8-420C-9211-76E85A7A4D22}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectVR_v2\ProjectVR_v2.Build.cs">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjectVR_v2\ProjectVR_v2.cpp">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectVR_v2\ProjectVR_v2.h">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectVR_v2\ProjectVR_v2Character.cpp">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectVR_v2\ProjectVR_v2Character.h">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectVR_v2\ProjectVR_v2GameMode.cpp">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectVR_v2\ProjectVR_v2GameMode.h">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectVR_v2\ProjectVR_v2HUD.cpp">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectVR_v2\ProjectVR_v2HUD.h">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectVR_v2\ProjectVR_v2Projectile.cpp">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectVR_v2\ProjectVR_v2Projectile.h">
+			<Filter>Source\ProjectVR_v2</Filter>
+		</ClInclude >
+		<Filter Include="Source\ProjectVR_v2\Resources">
+			<UniqueIdentifier>{5D64EA2E-3202-4331-BF66-81652DCA4B37}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\ProjectVR_v2\Resources\Windows">
+			<UniqueIdentifier>{270010C4-C34C-4267-9C9E-CF04ADE0DA4E}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\ProjectVR_v2\Resources\Windows\ProjectVR_v2.rc">
+			<Filter>Source\ProjectVR_v2\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
