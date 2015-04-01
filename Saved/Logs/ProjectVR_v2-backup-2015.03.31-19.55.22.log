@@ -1,0 +1,572 @@
+﻿Log file open, 03/31/15 19:34:37
+LogInit:Display: Running engine for game: ProjectVR_v2
+LogInit:Warning: Incompatible or missing module: UE4Editor-ProjectVR_v2.dll
+Running C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectVR_v2 Development Win64 -project="C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/ProjectVR_v2.uproject" -rocket -editorrecompile -progress
+Parsing headers for ProjectVR_v2Editor
+Reflection code generated for ProjectVR_v2Editor
+Performing 10 actions (4 in parallel)
+[3/10] Resource ProjectVR_v2.rc
+[2/10] Resource ModuleVersionResource.rc.inl
+PCH.ProjectVR_v2.ProjectVR_v2.h.cpp
+ProjectVR_v2HUD.cpp
+ProjectVR_v2Character.cpp
+ProjectVR_v2.generated.cpp
+ProjectVR_v2GameMode.cpp
+ProjectVR_v2Projectile.cpp
+ProjectVR_v2.cpp
+[10/10] Link UE4Editor-ProjectVR_v2.dll
+   Cr?ation de la biblioth?que C:\Users\utilisateur\Documents\GitHub\ProjectVR_v2\Intermediate\Build\Win64\ProjectVR_v2Editor\Development\UE4Editor-ProjectVR_v2.lib et de l'objet C:\Users\utilisateur\Documents\GitHub\ProjectVR_v2\Intermediate\Build\Win64\ProjectVR_v2Editor\Development\UE4Editor-ProjectVR_v2.exp
+-------- End Detailed Actions Stats -----------------------------------------------------------
+Cumulative action seconds (8 processors): 0,00 building projects, 33,26 compiling, 0,00 creating app bundles, 0,00 generating debug info, 4,07 linking, 0,00 other
+UBT execution time: 46,82 seconds
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.31-23.35.28:739][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.31-23.35.28:800][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.31-23.35.28:812][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.31-23.35.28:821][  0]LogInit: Object subsystem initialized
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.31-23.35.28:823][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.35.28:823][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.31-23.35.28:823][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.31-23.35.28:869][  0]LogInit: Computer: DIM-P46390-JV2
+[2015.03.31-23.35.28:869][  0]LogInit: User: utilisateur
+[2015.03.31-23.35.28:869][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.31-23.35.28:869][  0]LogInit: High frequency timer resolution =3.604667 MHz
+[2015.03.31-23.35.28:869][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.31-23.35.28:870][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.31-23.35.28:870][  0]LogMemory: Process Physical Memory: 51.21 MB used, 51.21 MB peak
+[2015.03.31-23.35.28:870][  0]LogMemory: Process Virtual Memory: 29.24 MB used, 29.25 MB peak
+[2015.03.31-23.35.28:870][  0]LogMemory: Physical Memory: 3146.91 MB used, 8136.17 MB total
+[2015.03.31-23.35.28:870][  0]LogMemory: Virtual Memory: 293.93 MB used, 8388608.00 MB total
+[2015.03.31-23.35.28:922][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.03.31-23.35.28:922][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.03.31-23.35.28:922][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.31-23.35.28:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.31-23.35.28:941][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.31-23.35.28:996][  0]LogTextLocalizationManager: The requested culture ('fr_CA') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.31-23.35.29:075][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.31-23.35.29:075][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.31-23.35.29:153][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.31-23.35.31:308][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.35.31:776][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.35.31:833][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.31-23.35.31:866][  0]LogDerivedDataCache: Loaded boot cache 0.03s 40MB C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-23.35.31:866][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.31-23.35.31:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.31-23.35.31:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.31-23.35.31:982][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.31-23.35.31:994][  0]LogDerivedDataCache: Using Local data cache path C:/Users/utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.31-23.35.32:330][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.31-23.35.32:330][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.31-23.35.32:702][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.31-23.35.32:793][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.31-23.35.33:612][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.31-23.35.33:840][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.31-23.35.35:168][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.35.35:168][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.35.35:168][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.35.35:176][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-23.35.35:196][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-23.35.35:386][  0]LogObj: 29762 objects as part of root set at end of initial load.
+[2015.03.31-23.35.35:386][  0]LogUObjectAllocator: 7142832 out of 0 bytes used by permanent object pool.
+[2015.03.31-23.35.35:460][  0]LogEngine: Initializing Engine...
+[2015.03.31-23.35.37:657][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.31-23.35.37:684][  0]LogInit: FAudioDevice initialized.
+[2015.03.31-23.35.37:717][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.31-23.35.37:736][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-23.35.37:739][  0]LogInit: Texture streaming: Enabled
+[2015.03.31-23.35.37:822][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.31-23.35.37:822][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-23.35.37:822][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-23.35.37:822][  0]LogAnalytics: SetUserId a6792b8a474cfe1903fd3ca4420e5a6c|2e7f10ecc5c44ed09099a5c3737e7b6f|e606fcdb-fe4e-45b8-97d5-5efdb04afdd0
+[2015.03.31-23.35.37:822][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.31-23.35.37:842][  0]LogInit: Transaction tracking system initialized
+[2015.03.31-23.35.38:020][  0]BlueprintLog: New page: Editor Load
+[2015.03.31-23.35.38:053][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.03.31-23.35.38:054][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.31-23.35.38:671][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.35.38:989][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.35.39:233][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.31-23.35.39:233][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.31-23.35.39:238][  0]LogConsoleResponse:Display: 
+[2015.03.31-23.35.39:411][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.31-23.35.39:560][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-23.35.39:560][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-23.35.39:560][  0]Cmd: MAP LOAD FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-23.35.39:560][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/FirstPersonExampleMap.umap'
+[2015.03.31-23.35.39:561][  0]Cmd: MAP CHECKDEP
+[2015.03.31-23.35.39:561][  0]MapCheck: New page: Untitled_0 - Mar 31, 2015, 3:35:39 PM
+[2015.03.31-23.35.39:646][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.007ms to complete.
+[2015.03.31-23.35.39:646][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.086
+[2015.03.31-23.35.39:814][  0]LogCollectionManager: Loaded 0 collections in 0.001385 seconds
+[2015.03.31-23.35.39:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 1700 classes and 263 folders.
+[2015.03.31-23.35.39:871][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0040 seconds. Added 1 classes and 2 folders.
+[2015.03.31-23.35.39:915][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.31-23.35.39:916][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.31-23.35.39:921][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.31-23.35.39:946][  0]LogLoad: Full Startup: 63.30 seconds (BP compile: 0.13 seconds)
+[2015.03.31-23.35.40:075][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Maps'
+[2015.03.31-23.35.40:280][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x560 (Frame:2).
+[2015.03.31-23.35.48:605][882]LogAssetRegistry: Asset discovery search completed in 10.5615 seconds
+[2015.03.31-23.35.59:108][778]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.35.59:133][778]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Component/Custom_Collider.uasset.
+[2015.03.31-23.35.59:139][778]LoadErrors:Error: Error /Game/Prototype_Room_1/Component/Custom_Collider : Can't find file for asset. /Game/ExampleContent/Audio/Physical_Materials/Concrete
+[2015.03.31-23.35.59:140][778]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.35.59:141][778]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Component/Custom_Collider.uasset.
+[2015.03.31-23.36.00:278][778]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.36.00:278][778]LoadErrors: Info Failed to load /Game/ExampleContent/Audio/Physical_Materials/Concrete.Concrete Referenced by BodySetup_140
+[2015.03.31-23.36.00:278][778]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading NULL.
+[2015.03.31-23.36.00:768][778]LogStaticMesh: Building static mesh SM_GlassWindow...
+[2015.03.31-23.36.00:780][778]LogStaticMesh: Built static mesh [27.654427ms] /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow
+[2015.03.31-23.36.00:826][778]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.03.31-23.36.01:308][778]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2015.03.31-23.36.02:109][778]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2015.03.31-23.36.02:472][778]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
+[2015.03.31-23.36.03:200][778]LogTexture:Display: Building textures: T_Wood_Oak_N (BC5)
+[2015.03.31-23.36.04:235][778]LogTexture:Display: Building textures: T_Wood_Oak_D (AutoDXT)
+[2015.03.31-23.36.08:734][778]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2015.03.31-23.36.08:796][778]LogStaticMesh: Building static mesh SM_WindowFrame...
+[2015.03.31-23.36.08:797][778]LogStaticMesh: Built static mesh [1.470594ms] /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame
+[2015.03.31-23.36.08:981][778]LogTexture:Display: Building textures: T_Wood_Walnut_D (AutoDXT)
+[2015.03.31-23.36.13:931][778]LogTexture:Display: Building textures: T_Wood_Walnut_N (BC5)
+[2015.03.31-23.36.14:368][778]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2015.03.31-23.36.14:500][778]LogTexture:Display: Building textures: T_Door_M (DXT1)
+[2015.03.31-23.36.15:185][778]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2015.03.31-23.36.15:630][778]LogMaterial: Missing cached shader map for material M_Door, compiling. 
+[2015.03.31-23.36.15:641][778]LogStaticMesh: Building static mesh SM_Door...
+[2015.03.31-23.36.15:666][778]LogStaticMesh: Built static mesh [24.568983ms] /Game/StarterContent/Props/SM_Door.SM_Door
+[2015.03.31-23.36.15:673][778]LogStaticMesh: Building static mesh SM_DoorFrame...
+[2015.03.31-23.36.15:674][778]LogStaticMesh: Built static mesh [1.125763ms] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2015.03.31-23.36.15:745][778]LogStaticMesh: Building static mesh Corridor_Wall_Left...
+[2015.03.31-23.36.15:748][778]LogStaticMesh: Built static mesh [27.269926ms] /Game/Prototype_Room_1/Component/Corridor_Wall_Left.Corridor_Wall_Left
+[2015.03.31-23.36.15:754][778]LogStaticMesh: Building static mesh Custom_Collider...
+[2015.03.31-23.36.15:755][778]LogStaticMesh: Built static mesh [1.250324ms] /Game/Prototype_Room_1/Component/Custom_Collider.Custom_Collider
+[2015.03.31-23.36.16:036][778]LogTexture:Display: Building textures: T_Metal_Gold_D (AutoDXT)
+[2015.03.31-23.36.20:776][778]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2015.03.31-23.36.21:137][778]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.03.31-23.36.21:200][778]LogStaticMesh: Building static mesh Key...
+[2015.03.31-23.36.21:202][778]LogStaticMesh: Built static mesh [42.199459ms] /Game/Prototype_Room_1/Component/Key.Key
+[2015.03.31-23.36.21:234][778]LogStaticMesh: Building static mesh Cylinder_Brush_StaticMesh...
+[2015.03.31-23.36.21:346][778]LogStaticMesh: Built static mesh [122.896790ms] /Game/Prototype_Room_1/Component/Cylinder_Brush_StaticMesh.Cylinder_Brush_StaticMesh
+[2015.03.31-23.36.21:383][778]LogMaterial: Missing cached shader map for material BlueLight, compiling. 
+[2015.03.31-23.36.21:412][778]LogMaterial: Missing cached shader map for material LightGreen, compiling. 
+[2015.03.31-23.36.21:418][778]LogMaterial: Missing cached shader map for material RedLight, compiling. 
+[2015.03.31-23.36.21:578][778]LogTexture:Display: Building textures: T_Metal_Steel_D (AutoDXT)
+[2015.03.31-23.36.24:723][778]LogTexture:Display: Building textures: T_Metal_Steel_N (BC5)
+[2015.03.31-23.36.25:295][778]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2015.03.31-23.36.25:340][778]LogStaticMesh: Building static mesh PilarPuzzle_Pillar_Mesh...
+[2015.03.31-23.36.25:381][778]LogStaticMesh: Built static mesh [54.464947ms] /Game/Prototype_Room_1/Component/PilarPuzzle_Pillar_Mesh.PilarPuzzle_Pillar_Mesh
+[2015.03.31-23.36.25:382][778]LogStaticMesh: Building static mesh PilarPuzzle_PillarLight_Mesh...
+[2015.03.31-23.36.25:386][778]LogStaticMesh: Built static mesh [3.809506ms] /Game/Prototype_Room_1/Component/PilarPuzzle_PillarLight_Mesh.PilarPuzzle_PillarLight_Mesh
+[2015.03.31-23.36.25:426][778]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.03.31-23.36.25:437][778]LogStaticMesh: Building static mesh PillarPuzzle_Pad_Mesh...
+[2015.03.31-23.36.25:440][778]LogStaticMesh: Built static mesh [3.781487ms] /Game/Prototype_Room_1/Component/PillarPuzzle_Pad_Mesh.PillarPuzzle_Pad_Mesh
+[2015.03.31-23.36.25:759][778]LogTexture:Display: Building textures: T_CobbleStone_Smooth_M (AutoDXT)
+[2015.03.31-23.36.30:831][778]LogTexture:Display: Building textures: T_CobbleStone_Smooth_D (AutoDXT)
+[2015.03.31-23.36.36:370][778]LogTexture:Display: Building textures: T_CobbleStone_Smooth_N (BC5)
+[2015.03.31-23.36.37:181][778]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2015.03.31-23.36.41:144][778]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2015.03.31-23.36.41:154][778]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2015.03.31-23.36.41:569][778]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2015.03.31-23.36.46:170][778]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2015.03.31-23.36.46:930][778]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.03.31-23.36.50:443][778]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.03.31-23.36.50:470][778]LogStaticMesh: Building static mesh TableStone_Button...
+[2015.03.31-23.36.50:472][778]LogStaticMesh: Built static mesh [2.012391ms] /Game/Prototype_Room_1/Component/TableStone_Button.TableStone_Button
+[2015.03.31-23.36.50:473][778]LogStaticMesh: Building static mesh TableStone_ButtonReal...
+[2015.03.31-23.36.50:477][778]LogStaticMesh: Built static mesh [3.760125ms] /Game/Prototype_Room_1/Component/TableStone_ButtonReal.TableStone_ButtonReal
+[2015.03.31-23.36.50:478][778]LogStaticMesh: Building static mesh TableStone_Mesh...
+[2015.03.31-23.36.50:484][778]LogStaticMesh: Built static mesh [6.456907ms] /Game/Prototype_Room_1/Component/TableStone_Mesh.TableStone_Mesh
+[2015.03.31-23.36.50:522][778]LogStaticMesh: Building static mesh StoneDoorPiece_Mesh...
+[2015.03.31-23.36.50:524][778]LogStaticMesh: Built static mesh [17.918715ms] /Game/Prototype_Room_1/Component/StoneDoorPiece_Mesh.StoneDoorPiece_Mesh
+[2015.03.31-23.36.50:527][778]LogStaticMesh: Building static mesh Cabinet...
+[2015.03.31-23.36.50:892][778]LogStaticMesh: Built static mesh [364.834808ms] /Game/Prototype_Room_1/Component/Cabinet.Cabinet
+[2015.03.31-23.36.50:896][778]LogStaticMesh: Building static mesh Collider_Table...
+[2015.03.31-23.36.50:900][778]LogStaticMesh: Built static mesh [3.606991ms] /Game/Prototype_Room_1/Component/Collider_Table.Collider_Table
+[2015.03.31-23.36.50:900][778]LogStaticMesh: Building static mesh Table...
+[2015.03.31-23.36.50:940][778]LogStaticMesh: Built static mesh [39.824207ms] /Game/Prototype_Room_1/Component/Table.Table
+[2015.03.31-23.36.51:116][778]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2015.03.31-23.36.53:192][778]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2015.03.31-23.36.53:645][778]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2015.03.31-23.36.53:657][778]LogStaticMesh: Building static mesh SM_Lamp_Wall...
+[2015.03.31-23.36.53:690][778]LogStaticMesh: Built static mesh [33.907433ms] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2015.03.31-23.36.53:725][778]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2015.03.31-23.36.54:225][778]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2015.03.31-23.36.59:039][778]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2015.03.31-23.36.59:353][778]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2015.03.31-23.37.04:886][778]LogTexture:Display: Building textures: T_Rock_Basalt_N (BC5)
+[2015.03.31-23.37.05:502][778]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2015.03.31-23.37.05:870][778]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2015.03.31-23.37.10:319][778]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2015.03.31-23.37.14:252][778]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2015.03.31-23.37.14:622][778]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.03.31-23.37.14:632][778]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.03.31-23.37.14:798][778]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2015.03.31-23.37.15:278][778]LogTexture:Display: Building textures: T_RockMesh_N (BC5)
+[2015.03.31-23.37.16:027][778]LogTexture:Display: Building textures: T_RockMesh_M (DXT1)
+[2015.03.31-23.37.17:855][778]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2015.03.31-23.37.17:882][778]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2015.03.31-23.37.17:936][778]LogStaticMesh: Building static mesh Corridor_Floor...
+[2015.03.31-23.37.17:940][778]LogStaticMesh: Built static mesh [46.885883ms] /Game/Prototype_Room_1/Component/Corridor_Floor.Corridor_Floor
+[2015.03.31-23.37.17:962][778]LogStaticMesh: Building static mesh Box_Brush4_StaticMesh...
+[2015.03.31-23.37.17:971][778]LogStaticMesh: Built static mesh [9.291843ms] /Game/Prototype_Room_1/Component/Box_Brush4_StaticMesh.Box_Brush4_StaticMesh
+[2015.03.31-23.37.17:983][778]LogStaticMesh: Building static mesh Corridor_EndWall...
+[2015.03.31-23.37.17:986][778]LogStaticMesh: Built static mesh [3.169780ms] /Game/Prototype_Room_1/Component/Corridor_EndWall.Corridor_EndWall
+[2015.03.31-23.37.17:987][778]LogStaticMesh: Building static mesh Corridor_FalseWall...
+[2015.03.31-23.37.17:990][778]LogStaticMesh: Built static mesh [3.041058ms] /Game/Prototype_Room_1/Component/Corridor_FalseWall.Corridor_FalseWall
+[2015.03.31-23.37.17:991][778]LogStaticMesh: Building static mesh Corridor_Wall_Mid...
+[2015.03.31-23.37.17:994][778]LogStaticMesh: Built static mesh [3.303773ms] /Game/Prototype_Room_1/Component/Corridor_Wall_Mid.Corridor_Wall_Mid
+[2015.03.31-23.37.18:004][778]LogStaticMesh: Building static mesh Corridor_Wall_MidTop...
+[2015.03.31-23.37.18:010][778]LogStaticMesh: Built static mesh [15.563712ms] /Game/Prototype_Room_1/Component/Corridor_Wall_MidTop.Corridor_Wall_MidTop
+[2015.03.31-23.37.18:055][778]LogStaticMesh: Building static mesh Corridor_Wall_Right...
+[2015.03.31-23.37.18:058][778]LogStaticMesh: Built static mesh [2.845200ms] /Game/Prototype_Room_1/Component/Corridor_Wall_Right.Corridor_Wall_Right
+[2015.03.31-23.37.18:061][778]LogStaticMesh: Building static mesh FIreplace_Mesh...
+[2015.03.31-23.37.18:107][778]LogStaticMesh: Built static mesh [46.026443ms] /Game/Prototype_Room_1/Component/FIreplace_Mesh.FIreplace_Mesh
+[2015.03.31-23.37.18:175][778]LogStaticMesh: Building static mesh MainRoom_Floor...
+[2015.03.31-23.37.18:177][778]LogStaticMesh: Built static mesh [25.941092ms] /Game/Prototype_Room_1/Component/MainRoom_Floor.MainRoom_Floor
+[2015.03.31-23.37.18:177][778]LogStaticMesh: Building static mesh Floor...
+[2015.03.31-23.37.18:181][778]LogStaticMesh: Built static mesh [4.166265ms] /Game/Prototype_Room_1/Component/Floor.Floor
+[2015.03.31-23.37.18:394][778]LogTexture:Display: Building textures: T_Concrete_Tiles_D (AutoDXT)
+[2015.03.31-23.37.21:650][778]LogTexture:Display: Building textures: T_Concrete_Tiles_M (AutoDXT)
+[2015.03.31-23.37.25:396][778]LogTexture:Display: Building textures: T_Concrete_Tiles_N (BC5)
+[2015.03.31-23.37.25:849][778]LogTexture:Display: Building textures: T_Concrete_Tiles_Variation_M (AutoDXT)
+[2015.03.31-23.37.25:946][778]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.03.31-23.37.25:972][778]LogStaticMesh: Building static mesh PillarPuzzle_PressurePlate_Mesh...
+[2015.03.31-23.37.25:978][778]LogStaticMesh: Built static mesh [6.287127ms] /Game/Prototype_Room_1/Component/PillarPuzzle_PressurePlate_Mesh.PillarPuzzle_PressurePlate_Mesh
+[2015.03.31-23.37.25:979][778]LogStaticMesh: Building static mesh Roof...
+[2015.03.31-23.37.25:981][778]LogStaticMesh: Built static mesh [3.009155ms] /Game/Prototype_Room_1/Component/Roof.Roof
+[2015.03.31-23.37.25:983][778]LogStaticMesh: Building static mesh Room2_Wall1...
+[2015.03.31-23.37.25:986][778]LogStaticMesh: Built static mesh [3.904383ms] /Game/Prototype_Room_1/Component/Room2_Wall1.Room2_Wall1
+[2015.03.31-23.37.25:988][778]LogStaticMesh: Building static mesh Room2_Wall2_false...
+[2015.03.31-23.37.25:997][778]LogStaticMesh: Built static mesh [9.687718ms] /Game/Prototype_Room_1/Component/Room2_Wall2_false.Room2_Wall2_false
+[2015.03.31-23.37.26:010][778]LogStaticMesh: Building static mesh SecretRoom...
+[2015.03.31-23.37.26:015][778]LogStaticMesh: Built static mesh [16.223135ms] /Game/Prototype_Room_1/Component/SecretRoom.SecretRoom
+[2015.03.31-23.37.26:039][778]LogStaticMesh: Building static mesh SmallRoom_Floor...
+[2015.03.31-23.37.26:041][778]LogStaticMesh: Built static mesh [2.408544ms] /Game/Prototype_Room_1/Component/SmallRoom_Floor.SmallRoom_Floor
+[2015.03.31-23.37.26:043][778]LogStaticMesh: Building static mesh SmallRoom_Wall...
+[2015.03.31-23.37.26:051][778]LogStaticMesh: Built static mesh [9.025244ms] /Game/Prototype_Room_1/Component/SmallRoom_Wall.SmallRoom_Wall
+[2015.03.31-23.37.26:072][778]LogStaticMesh: Building static mesh SupportBeamStone_Mesh...
+[2015.03.31-23.37.26:088][778]LogStaticMesh: Built static mesh [15.868595ms] /Game/Prototype_Room_1/Component/SupportBeamStone_Mesh.SupportBeamStone_Mesh
+[2015.03.31-23.37.26:113][778]LogStaticMesh: Building static mesh Temporary_Bookcase...
+[2015.03.31-23.37.26:133][778]LogStaticMesh: Built static mesh [20.263176ms] /Game/Prototype_Room_1/Component/Temporary_Bookcase.Temporary_Bookcase
+[2015.03.31-23.37.26:154][778]LogStaticMesh: Building static mesh Tomb_Lid_Mesh...
+[2015.03.31-23.37.26:208][778]LogStaticMesh: Built static mesh [74.724518ms] /Game/Prototype_Room_1/Component/Tomb_Lid_Mesh.Tomb_Lid_Mesh
+[2015.03.31-23.37.26:209][778]LogStaticMesh: Building static mesh TombWallMesh...
+[2015.03.31-23.37.26:262][778]LogStaticMesh: Built static mesh [52.695297ms] /Game/Prototype_Room_1/Component/TombWallMesh.TombWallMesh
+[2015.03.31-23.37.26:265][778]LogStaticMesh: Building static mesh Wall...
+[2015.03.31-23.37.26:296][778]LogStaticMesh: Built static mesh [31.151283ms] /Game/Prototype_Room_1/Component/Wall.Wall
+[2015.03.31-23.37.26:297][778]LogStaticMesh: Building static mesh Wall_Detail...
+[2015.03.31-23.37.26:307][778]LogStaticMesh: Built static mesh [10.662844ms] /Game/Prototype_Room_1/Component/Wall_Detail.Wall_Detail
+[2015.03.31-23.37.26:374][778]LogStaticMesh: Building static mesh DoorFrameStoneBig_Mesh...
+[2015.03.31-23.37.26:378][778]LogStaticMesh: Built static mesh [70.551872ms] /Game/Prototype_Room_1/DoorFrameStoneBig_Mesh.DoorFrameStoneBig_Mesh
+[2015.03.31-23.37.26:379][778]LogStaticMesh: Building static mesh Grille...
+[2015.03.31-23.37.26:410][778]LogStaticMesh: Built static mesh [30.743200ms] /Game/Prototype_Room_1/Grille.Grille
+[2015.03.31-23.37.26:411][778]LogStaticMesh: Building static mesh Tomb_Base_Mesh...
+[2015.03.31-23.37.26:422][778]LogStaticMesh: Built static mesh [10.921397ms] /Game/Prototype_Room_1/Tomb_Base_Mesh.Tomb_Base_Mesh
+[2015.03.31-23.37.26:527][778]LogTexture:Display: Building textures: T_Fire_SubUV (AutoDXT)
+[2015.03.31-23.37.26:878][778]LogTexture:Display: Building textures: T_Fire_Tiled_D (AutoDXT)
+[2015.03.31-23.37.27:162][778]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2015.03.31-23.37.27:267][778]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.03.31-23.37.27:716][778]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.03.31-23.37.27:763][778]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2015.03.31-23.37.27:975][778]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2015.03.31-23.37.31:169][778]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2015.03.31-23.37.31:203][778]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2015.03.31-23.37.31:374][778]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.03.31-23.37.31:555][778]LogTexture:Display: Building textures: T_Shelf_M (DXT1)
+[2015.03.31-23.37.32:214][778]LogTexture:Display: Building textures: T_Shelf_N (BC5)
+[2015.03.31-23.37.32:665][778]LogMaterial: Missing cached shader map for material M_Shelf, compiling. 
+[2015.03.31-23.37.32:677][778]LogStaticMesh: Building static mesh SM_Shelf...
+[2015.03.31-23.37.32:682][778]LogStaticMesh: Built static mesh [5.606066ms] /Game/StarterContent/Props/SM_Shelf.SM_Shelf
+[2015.03.31-23.37.32:765][778]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.31-23.37.32:798][778]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.31-23.37.32:802][778]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.03.31-23.37.32:805][778]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.31-23.37.32:834][778]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.03.31-23.37.32:835][778]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.03.31-23.37.32:842][778]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.31-23.37.32:848][778]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.31-23.37.32:848][778]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.03.31-23.37.32:945][778]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2015.03.31-23.37.32:946][778]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire2.ParticleSystemComponent0
+[2015.03.31-23.37.32:947][778]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire3.ParticleSystemComponent0
+[2015.03.31-23.37.32:947][778]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire4.ParticleSystemComponent0
+[2015.03.31-23.37.33:056][778]Cmd: MAP LOAD FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/Prototype_Room.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-23.37.33:057][778]LightingResults: New page: Lighting Build
+[2015.03.31-23.37.33:079][778]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0079 seconds. Added 5 classes and 0 folders.
+[2015.03.31-23.37.33:110][778]LoadErrors: New page: Loading map: Prototype_Room.umap
+[2015.03.31-23.37.33:111][778]MapCheck: New page: Map Check
+[2015.03.31-23.37.33:111][778]LightingResults: New page: Lighting Build
+[2015.03.31-23.37.33:129][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000042A3380
+[2015.03.31-23.37.33:576][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-23.37.33:579][778]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.03.31-23.37.33:645][778]Cmd: MAP CHECKDEP
+[2015.03.31-23.37.33:645][778]MapCheck: New page: Prototype_Room - Mar 31, 2015, 3:37:33 PM
+[2015.03.31-23.37.33:842][778]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 196.755ms to complete.
+[2015.03.31-23.37.33:843][778]LogFileHelpers: Loading map 'Prototype_Room' took 0.789
+[2015.03.31-23.38.08:311][800]Cmd: MAP LOAD FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/Prototype_Room.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-23.38.08:311][800]LightingResults: New page: Lighting Build
+[2015.03.31-23.38.08:339][800]LoadErrors: New page: Loading map: Prototype_Room.umap
+[2015.03.31-23.38.08:341][800]MapCheck: New page: Map Check
+[2015.03.31-23.38.08:341][800]LightingResults: New page: Lighting Build
+[2015.03.31-23.38.08:367][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CBA53A0
+[2015.03.31-23.38.08:918][800]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-23.38.08:925][800]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.03.31-23.38.09:005][800]Cmd: MAP CHECKDEP
+[2015.03.31-23.38.09:005][800]MapCheck: New page: Prototype_Room - Mar 31, 2015, 3:38:09 PM
+[2015.03.31-23.38.09:186][800]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 180.284ms to complete.
+[2015.03.31-23.38.09:188][800]LogFileHelpers: Loading map 'Prototype_Room' took 0.879
+[2015.03.31-23.40.31:961][171]LogEditorViewport: Clicking on Actor (LMB): Blueprint_WallSconce_C (Blueprint_WallSconce30)
+[2015.03.31-23.40.32:970][277]Cmd: DELETE
+[2015.03.31-23.40.32:970][277]Cmd: ACTOR DELETE
+[2015.03.31-23.40.32:972][277]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2015.03.31-23.40.32:990][277]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2015.03.31-23.41.24:020][235]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.31-23.41.24:020][235]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.03.31-23.41.24:145][235]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (1 blueprints)
+[2015.03.31-23.41.24:145][235]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 3:41:24 PM)
+[2015.03.31-23.41.24:239][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094028s)
+[2015.03.31-23.41.24:240][235]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2015.03.31-23.41.24:240][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.094818s)
+[2015.03.31-23.41.24:310][235]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.03.31-23.41.24:315][235]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.03.31-23.41.24:382][235]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-19.41.24
+[2015.03.31-23.41.24:387][235]LogWorld: Bringing up level for play took: 0.070918
+[2015.03.31-23.41.24:743][235]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 1.497
+[2015.03.31-23.41.31:374][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000122ECE00
+[2015.03.31-23.41.42:844][159]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.31-23.41.42:844][159]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.03.31-23.41.42:969][159]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2015.03.31-23.41.42:970][159]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 3:41:42 PM)
+[2015.03.31-23.41.43:049][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078774s)
+[2015.03.31-23.41.43:050][159]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2015.03.31-23.41.43:050][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.079900s)
+[2015.03.31-23.41.43:099][159]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.03.31-23.41.43:104][159]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.03.31-23.41.43:158][159]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-19.41.43
+[2015.03.31-23.41.43:160][159]LogWorld: Bringing up level for play took: 0.054711
+[2015.03.31-23.41.43:180][159]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room -0.067
+[2015.03.31-23.41.52:620][261]LogBlueprintUserMessages: Added to inventory
+[2015.03.31-23.41.52:652][261]LogBlueprintUserMessages: Key_Door
+[2015.03.31-23.41.55:233][567]LogBlueprintUserMessages: Added to inventory
+[2015.03.31-23.41.55:233][567]LogBlueprintUserMessages: StoneKeySouth
+[2015.03.31-23.42.00:100][148]LogBlueprintUserMessages: Object Found in Inventory
+[2015.03.31-23.42.00:100][148]LogBlueprintUserMessages: Door  Unlocked
+[2015.03.31-23.42.06:843][954]LogBlueprintUserMessages: Added to inventory
+[2015.03.31-23.42.06:843][954]LogBlueprintUserMessages: StoneKeyEst
+[2015.03.31-23.42.34:588][250]LogBlueprintUserMessages: Lever clicked
+[2015.03.31-23.42.44:648][449]LogBlueprintUserMessages: Added to inventory
+[2015.03.31-23.42.44:648][449]LogBlueprintUserMessages: StoneKeyNorth
+[2015.03.31-23.42.46:468][667]LogBlueprintUserMessages: Added to inventory
+[2015.03.31-23.42.46:468][667]LogBlueprintUserMessages: StoneKeyWest
+[2015.03.31-23.42.52:167][348]LogBlueprintUserMessages: Object Found in Inventory
+[2015.03.31-23.42.52:575][397]LogBlueprintUserMessages: Object Found in Inventory
+[2015.03.31-23.42.52:969][444]LogBlueprintUserMessages: Object Found in Inventory
+[2015.03.31-23.42.53:836][547]LogBlueprintUserMessages: Object Found in Inventory
+[2015.03.31-23.43.12:613][785]LogBlueprintUserMessages: Lever clicked
+[2015.03.31-23.43.19:116][560]LogBlueprintUserMessages: Lever clicked
+[2015.03.31-23.43.40:663][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000144193A0
+[2015.03.31-23.43.40:795][858]Cmd: QUIT_EDITOR
+[2015.03.31-23.43.41:059][858]LogExit: Preparing to exit.
+[2015.03.31-23.43.41:772][858]LogExit: Editor shut down
+[2015.03.31-23.43.41:773][858]LogExit: Transaction tracking system shut down
+[2015.03.31-23.43.41:773][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DCE8AE0
+[2015.03.31-23.43.41:774][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000143A1760
+[2015.03.31-23.43.41:774][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D4D65C0
+[2015.03.31-23.43.41:775][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001438E020
+[2015.03.31-23.43.41:858][858]LogExit: Object subsystem successfully closed.
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module StatsViewer (178)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.03.31-23.43.41:929][858]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.03.31-23.43.41:930][858]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.03.31-23.43.42:087][858]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.03.31-23.43.42:087][858]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.03.31-23.43.42:087][858]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.03.31-23.43.42:087][858]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.03.31-23.43.42:087][858]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.03.31-23.43.42:088][858]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.03.31-23.43.42:089][858]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.03.31-23.43.42:089][858]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.03.31-23.43.42:218][858]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.03.31-23.43.42:218][858]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.03.31-23.43.42:218][858]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.03.31-23.43.42:219][858]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.03.31-23.43.42:220][858]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.03.31-23.43.42:220][858]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.31-23.43.42:220][858]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.03.31-23.43.42:281][858]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.31-23.43.42:282][858]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (93)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module UObjectPlugin (92)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (91)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module SourceControl (89)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module GitSourceControl (88)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module BlankPlugin (87)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (86)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (85)
+[2015.03.31-23.43.42:283][858]LogModuleManager: Shutting down and abandoning module ContentBrowser (84)
+[2015.03.31-23.43.42:284][858]LogModuleManager: Shutting down and abandoning module Paper2DEditor (83)
+[2015.03.31-23.43.42:284][858]LogModuleManager: Shutting down and abandoning module ProjectVR_v2 (82)
+[2015.03.31-23.43.42:285][858]LogModuleManager: Shutting down and abandoning module ScriptPlugin (81)
+[2015.03.31-23.43.42:285][858]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.03.31-23.43.42:385][858]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.03.31-23.43.42:385][858]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.03.31-23.43.42:391][858]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.03.31-23.43.42:391][858]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.03.31-23.43.42:392][858]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.03.31-23.43.42:393][858]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.03.31-23.43.42:393][858]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.03.31-23.43.42:393][858]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.03.31-23.43.42:393][858]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.03.31-23.43.42:403][858]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.03.31-23.43.42:430][858]LogDerivedDataCache: Shutdown
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.03.31-23.43.42:430][858]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (29)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module DesktopPlatform (14)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.31-23.43.42:431][858]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.31-23.43.42:434][858]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.31-23.43.42:435][858]LogExit: Exiting.
+[2015.03.31-23.43.42:478][858]Log file closed, 03/31/15 19:43:42

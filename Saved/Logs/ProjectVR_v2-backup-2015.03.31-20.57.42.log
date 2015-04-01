@@ -1,0 +1,1307 @@
+﻿Log file open, 03/31/15 19:55:22
+LogInit:Display: Running engine for game: ProjectVR_v2
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.31-23.55.22:388][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.31-23.55.22:453][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.31-23.55.22:476][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.31-23.55.22:492][  0]LogInit: Object subsystem initialized
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.31-23.55.22:495][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.31-23.55.22:496][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.31-23.55.22:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.31-23.55.22:504][  0]LogInit: Computer: DIM-P46390-JV2
+[2015.03.31-23.55.22:504][  0]LogInit: User: utilisateur
+[2015.03.31-23.55.22:504][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.31-23.55.22:504][  0]LogInit: High frequency timer resolution =3.604667 MHz
+[2015.03.31-23.55.22:504][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.31-23.55.22:504][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.31-23.55.22:504][  0]LogMemory: Process Physical Memory: 48.93 MB used, 48.93 MB peak
+[2015.03.31-23.55.22:504][  0]LogMemory: Process Virtual Memory: 26.94 MB used, 26.95 MB peak
+[2015.03.31-23.55.22:504][  0]LogMemory: Physical Memory: 3675.54 MB used, 8136.17 MB total
+[2015.03.31-23.55.22:504][  0]LogMemory: Virtual Memory: 280.36 MB used, 8388608.00 MB total
+[2015.03.31-23.55.22:525][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.03.31-23.55.22:525][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.03.31-23.55.22:525][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.31-23.55.22:529][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.31-23.55.22:537][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.31-23.55.22:585][  0]LogTextLocalizationManager: The requested culture ('fr_CA') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.31-23.55.22:669][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.31-23.55.22:669][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.31-23.55.22:760][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.31-23.55.25:209][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.55.25:727][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.55.25:805][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.31-23.55.25:844][  0]LogDerivedDataCache: Loaded boot cache 0.04s 40MB C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-23.55.25:844][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.31-23.55.25:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.31-23.55.25:844][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.31-23.55.26:001][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.31-23.55.26:014][  0]LogDerivedDataCache: Using Local data cache path C:/Users/utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.31-23.55.26:397][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.31-23.55.26:397][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.31-23.55.26:786][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.31-23.55.26:878][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.31-23.55.27:806][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.31-23.55.27:891][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.31-23.55.28:353][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.55.28:353][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.55.28:353][  0]SourceControl: Info Source control is disabled
+[2015.03.31-23.55.28:361][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-23.55.28:361][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-23.55.28:596][  0]LogObj: 29762 objects as part of root set at end of initial load.
+[2015.03.31-23.55.28:596][  0]LogUObjectAllocator: 7142840 out of 0 bytes used by permanent object pool.
+[2015.03.31-23.55.28:700][  0]LogEngine: Initializing Engine...
+[2015.03.31-23.55.30:871][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.31-23.55.30:877][  0]LogInit: FAudioDevice initialized.
+[2015.03.31-23.55.30:920][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.31-23.55.30:939][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB C:/Users/utilisateur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.31-23.55.30:942][  0]LogInit: Texture streaming: Enabled
+[2015.03.31-23.55.31:040][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.31-23.55.31:040][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-23.55.31:040][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.31-23.55.31:041][  0]LogAnalytics: SetUserId a6792b8a474cfe1903fd3ca4420e5a6c|2e7f10ecc5c44ed09099a5c3737e7b6f|e606fcdb-fe4e-45b8-97d5-5efdb04afdd0
+[2015.03.31-23.55.31:041][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.31-23.55.31:073][  0]LogInit: Transaction tracking system initialized
+[2015.03.31-23.55.31:232][  0]BlueprintLog: New page: Editor Load
+[2015.03.31-23.55.31:269][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.03.31-23.55.31:269][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.31-23.55.31:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.55.32:129][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.31-23.55.32:385][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.31-23.55.32:386][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.31-23.55.32:390][  0]LogConsoleResponse:Display: 
+[2015.03.31-23.55.32:520][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.31-23.55.32:665][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.31-23.55.32:665][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.31-23.55.32:665][  0]Cmd: MAP LOAD FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-23.55.32:667][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/FirstPersonExampleMap.umap'
+[2015.03.31-23.55.32:667][  0]Cmd: MAP CHECKDEP
+[2015.03.31-23.55.32:667][  0]MapCheck: New page: Untitled_0 - Mar 31, 2015, 3:55:32 PM
+[2015.03.31-23.55.32:749][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.511ms to complete.
+[2015.03.31-23.55.32:750][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.085
+[2015.03.31-23.55.33:010][  0]LogCollectionManager: Loaded 0 collections in 0.001615 seconds
+[2015.03.31-23.55.33:024][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 1700 classes and 263 folders.
+[2015.03.31-23.55.33:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0041 seconds. Added 1 classes and 2 folders.
+[2015.03.31-23.55.33:104][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.31-23.55.33:105][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.31-23.55.33:110][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.31-23.55.33:134][  0]LogLoad: Full Startup: 11.60 seconds (BP compile: 0.08 seconds)
+[2015.03.31-23.55.33:168][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Maps'
+[2015.03.31-23.55.33:316][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x560 (Frame:2).
+[2015.03.31-23.55.33:545][  4]LogAssetRegistry: Asset discovery search completed in 2.2855 seconds
+[2015.03.31-23.56.11:281][310]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.56.11:282][310]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Component/Custom_Collider.uasset.
+[2015.03.31-23.56.11:282][310]LoadErrors:Error: Error /Game/Prototype_Room_1/Component/Custom_Collider : Can't find file for asset. /Game/ExampleContent/Audio/Physical_Materials/Concrete
+[2015.03.31-23.56.11:282][310]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.56.11:283][310]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading ../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Component/Custom_Collider.uasset.
+[2015.03.31-23.56.11:991][310]LogLinker:Warning: Can't find file '/Game/ExampleContent/Audio/Physical_Materials/Concrete'
+[2015.03.31-23.56.11:991][310]LoadErrors: Info Failed to load /Game/ExampleContent/Audio/Physical_Materials/Concrete.Concrete Referenced by BodySetup_140
+[2015.03.31-23.56.11:991][310]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/Audio/Physical_Materials/Concrete' while loading NULL.
+[2015.03.31-23.56.12:292][310]LogStaticMesh: Building static mesh PillarPuzzle_Button...
+[2015.03.31-23.56.12:294][310]LogStaticMesh: Built static mesh [1.890327ms] /Game/Prototype_Room_1/Component/PillarPuzzle_Button.PillarPuzzle_Button
+[2015.03.31-23.56.12:537][310]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2015.03.31-23.56.12:537][310]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire2.ParticleSystemComponent0
+[2015.03.31-23.56.12:538][310]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire3.ParticleSystemComponent0
+[2015.03.31-23.56.12:539][310]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.P_Fire4.ParticleSystemComponent0
+[2015.03.31-23.56.12:615][310]Cmd: MAP LOAD FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/Prototype_Room.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.31-23.56.12:616][310]LightingResults: New page: Lighting Build
+[2015.03.31-23.56.12:633][310]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0041 seconds. Added 5 classes and 0 folders.
+[2015.03.31-23.56.12:656][310]LoadErrors: New page: Loading map: Prototype_Room.umap
+[2015.03.31-23.56.12:657][310]MapCheck: New page: Map Check
+[2015.03.31-23.56.12:657][310]LightingResults: New page: Lighting Build
+[2015.03.31-23.56.12:670][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016667380
+[2015.03.31-23.56.12:719][310]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.31-23.56.12:721][310]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.03.31-23.56.12:753][310]Cmd: MAP CHECKDEP
+[2015.03.31-23.56.12:753][310]MapCheck: New page: Prototype_Room - Mar 31, 2015, 3:56:12 PM
+[2015.03.31-23.56.12:925][310]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 172.065ms to complete.
+[2015.03.31-23.56.12:926][310]LogFileHelpers: Loading map 'Prototype_Room' took 0.313
+[2015.03.31-23.58.10:431][398]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (AnimGrille)
+[2015.03.31-23.58.21:770][449]LogEditorViewport: Clicking on Actor (context menu): MatineeActor (AnimGrille)
+[2015.03.31-23.58.27:827][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cave_Wall4)
+[2015.03.31-23.58.28:520][112]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (AnimGrille)
+[2015.03.31-23.58.35:609][843]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0074 seconds. Added 15 classes and 2 folders.
+[2015.03.31-23.58.35:633][843]LogInit: Transaction tracking system initialized
+[2015.03.31-23.58.35:633][843]EditorErrors: New page: Matinee Initialization
+[2015.03.31-23.59.25:015][508]LogEditorViewport: Clicking on Actor (LMB): PuzzleTableStone_C (PuzzleTableStone)
+[2015.03.31-23.59.46:819][486]LogRenderer:Warning: Reallocating scene render targets to support 1056x872 (Frame:5867).
+[2015.04.01-00.00.30:046][545]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Textures'
+[2015.04.01-00.00.30:657][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Meshes'
+[2015.04.01-00.00.31:749][733]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Maps'
+[2015.04.01-00.00.32:196][783]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Character'
+[2015.04.01-00.00.32:635][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Blueprints'
+[2015.04.01-00.00.33:478][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Audio'
+[2015.04.01-00.00.33:906][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Animations'
+[2015.04.01-00.00.39:195][546]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Prototype_Room_1'
+[2015.04.01-00.01.20:641][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.04.01-00.01.44:405][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012503740
+[2015.04.01-00.01.44:405][739]LogExit: Transaction tracking system shut down
+[2015.04.01-00.02.17:261][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Prototype_Room_1'
+[2015.04.01-00.03.14:292][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:292][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:292][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:292][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:292][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:293][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:294][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:295][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:296][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.03.14:298][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4058
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7618) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7767).  Import failed...
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4058.EdGraphPin_7618''
+[2015.04.01-00.03.14:298][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4058
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7621) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7768).  Import failed...
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4058.EdGraphPin_7621''
+[2015.04.01-00.03.14:298][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_391 or K2Node_VariableSet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_391
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_391.EdGraphPin_7481) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7769).  Import failed...
+[2015.04.01-00.03.14:298][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_391.EdGraphPin_7481''
+[2015.04.01-00.03.14:300][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4059 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4059
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4059.EdGraphPin_7636) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_56.EdGraphPin_7716).  Import failed...
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4059.EdGraphPin_7636''
+[2015.04.01-00.03.14:300][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4059 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4059
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4059.EdGraphPin_7639) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_56.EdGraphPin_7717).  Import failed...
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4059.EdGraphPin_7639''
+[2015.04.01-00.03.14:300][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_406 or K2Node_VariableSet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_406
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_406.EdGraphPin_7494) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_56.EdGraphPin_7718).  Import failed...
+[2015.04.01-00.03.14:300][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_406.EdGraphPin_7494''
+[2015.04.01-00.03.14:302][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4060 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4060
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4060.EdGraphPin_7654) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_57.EdGraphPin_7519).  Import failed...
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4060.EdGraphPin_7654''
+[2015.04.01-00.03.14:302][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4060 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4060
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4060.EdGraphPin_7657) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_57.EdGraphPin_7520).  Import failed...
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4060.EdGraphPin_7657''
+[2015.04.01-00.03.14:302][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_408 or K2Node_VariableSet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_408
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_408.EdGraphPin_7531) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_57.EdGraphPin_7521).  Import failed...
+[2015.04.01-00.03.14:302][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_408.EdGraphPin_7531''
+[2015.04.01-00.03.14:304][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_3668 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_3668
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_3668.EdGraphPin_7672) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_54.EdGraphPin_7507).  Import failed...
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3668.EdGraphPin_7672''
+[2015.04.01-00.03.14:304][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_3668 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_3668
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_3668.EdGraphPin_7675) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_54.EdGraphPin_7508).  Import failed...
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3668.EdGraphPin_7675''
+[2015.04.01-00.03.14:304][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_410 or K2Node_VariableSet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_410
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_410.EdGraphPin_7562) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_54.EdGraphPin_7509).  Import failed...
+[2015.04.01-00.03.14:304][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_410.EdGraphPin_7562''
+[2015.04.01-00.03.14:306][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4065 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4065
+[2015.04.01-00.03.14:306][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4065.EdGraphPin_7940) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_391.EdGraphPin_7482).  Import failed...
+[2015.04.01-00.03.14:306][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4065.EdGraphPin_7940''
+[2015.04.01-00.03.14:310][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4064 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4064
+[2015.04.01-00.03.14:310][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4064.EdGraphPin_7689) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_406.EdGraphPin_7495).  Import failed...
+[2015.04.01-00.03.14:310][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4064.EdGraphPin_7689''
+[2015.04.01-00.03.14:317][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4063 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4063
+[2015.04.01-00.03.14:317][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4063.EdGraphPin_7955) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_408.EdGraphPin_7532).  Import failed...
+[2015.04.01-00.03.14:317][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4063.EdGraphPin_7955''
+[2015.04.01-00.03.14:323][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4062 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4062
+[2015.04.01-00.03.14:323][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4062.EdGraphPin_7728) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_410.EdGraphPin_7563).  Import failed...
+[2015.04.01-00.03.14:323][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4062.EdGraphPin_7728''
+[2015.04.01-00.03.14:327][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19
+[2015.04.01-00.03.14:328][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19.EdGraphPin_7576) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_547.EdGraphPin_7544).  Import failed...
+[2015.04.01-00.03.14:328][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_19.EdGraphPin_7576''
+[2015.04.01-00.03.14:331][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19
+[2015.04.01-00.03.14:331][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19.EdGraphPin_7577) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_549.EdGraphPin_7550).  Import failed...
+[2015.04.01-00.03.14:331][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_19.EdGraphPin_7577''
+[2015.04.01-00.03.14:334][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17
+[2015.04.01-00.03.14:334][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17.EdGraphPin_7588) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_551.EdGraphPin_7556).  Import failed...
+[2015.04.01-00.03.14:334][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_17.EdGraphPin_7588''
+[2015.04.01-00.03.14:338][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17
+[2015.04.01-00.03.14:338][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17.EdGraphPin_7589) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_553.EdGraphPin_7599).  Import failed...
+[2015.04.01-00.03.14:338][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_17.EdGraphPin_7589''
+[2015.04.01-00.03.14:340][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18
+[2015.04.01-00.03.14:340][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18.EdGraphPin_7705) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19.EdGraphPin_7578).  Import failed...
+[2015.04.01-00.03.14:340][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_18.EdGraphPin_7705''
+[2015.04.01-00.03.14:342][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18 or K2Node_CommutativeAssociativeBinaryOperator /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18
+[2015.04.01-00.03.14:342][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18.EdGraphPin_7706) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17.EdGraphPin_7590).  Import failed...
+[2015.04.01-00.03.14:342][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_18.EdGraphPin_7706''
+[2015.04.01-00.03.14:344][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_243
+[2015.04.01-00.03.14:344][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7606) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_18.EdGraphPin_7707).  Import failed...
+[2015.04.01-00.03.14:344][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_243.EdGraphPin_7606''
+[2015.04.01-00.03.14:346][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4065 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4065
+[2015.04.01-00.03.14:346][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4065.EdGraphPin_7941) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7605).  Import failed...
+[2015.04.01-00.03.14:346][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4065.EdGraphPin_7941''
+[2015.04.01-00.03.14:346][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4064 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4064
+[2015.04.01-00.03.14:346][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4064.EdGraphPin_7690) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7605).  Import failed...
+[2015.04.01-00.03.14:346][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4064.EdGraphPin_7690''
+[2015.04.01-00.03.14:346][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4063 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4063
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4063.EdGraphPin_7956) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7605).  Import failed...
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4063.EdGraphPin_7956''
+[2015.04.01-00.03.14:347][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4062 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4062
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4062.EdGraphPin_7729) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7605).  Import failed...
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4062.EdGraphPin_7729''
+[2015.04.01-00.03.14:347][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Timeline /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_21 or K2Node_Timeline /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_Timeline_21
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_Timeline_21.EdGraphPin_7406) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_243.EdGraphPin_7607).  Import failed...
+[2015.04.01-00.03.14:347][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_21.EdGraphPin_7406''
+[2015.04.01-00.03.14:349][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163
+[2015.04.01-00.03.14:349][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7859) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7617).  Import failed...
+[2015.04.01-00.03.14:349][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_163.EdGraphPin_7859''
+[2015.04.01-00.03.14:352][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Table_1.Table_1:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:352][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:352][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Door_withKey.Door_withKey:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:352][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Door.Door:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:352][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_164.EdGraphPin_7871) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4059.EdGraphPin_7635).  Import failed...
+[2015.04.01-00.03.14:352][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_164.EdGraphPin_7871''
+[2015.04.01-00.03.14:355][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_165 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_165
+[2015.04.01-00.03.14:355][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_165.EdGraphPin_7883) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4060.EdGraphPin_7653).  Import failed...
+[2015.04.01-00.03.14:355][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_165.EdGraphPin_7883''
+[2015.04.01-00.03.14:358][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162 or K2Node_IfThenElse /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.Prototype_Room.EventGraph.K2Node_IfThenElse_162
+[2015.04.01-00.03.14:358][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_162
+[2015.04.01-00.03.14:358][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_162.EdGraphPin_7895) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_3668.EdGraphPin_7671).  Import failed...
+[2015.04.01-00.03.14:358][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_162.EdGraphPin_7895''
+[2015.04.01-00.03.14:361][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_1556 or K2Node_VariableGet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1556
+[2015.04.01-00.03.14:361][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1556.EdGraphPin_7755) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4064.EdGraphPin_7691).  Import failed...
+[2015.04.01-00.03.14:361][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1556.EdGraphPin_7755''
+[2015.04.01-00.03.14:364][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_1554 or K2Node_VariableGet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1554
+[2015.04.01-00.03.14:364][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1554.EdGraphPin_7749) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4063.EdGraphPin_7957).  Import failed...
+[2015.04.01-00.03.14:364][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1554.EdGraphPin_7749''
+[2015.04.01-00.03.14:366][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_1558 or K2Node_VariableGet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1558
+[2015.04.01-00.03.14:366][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1558.EdGraphPin_7761) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4065.EdGraphPin_7942).  Import failed...
+[2015.04.01-00.03.14:366][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1558.EdGraphPin_7761''
+[2015.04.01-00.03.14:369][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_1552 or K2Node_VariableGet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1552
+[2015.04.01-00.03.14:369][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_1552.EdGraphPin_7743) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4062.EdGraphPin_7730).  Import failed...
+[2015.04.01-00.03.14:369][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1552.EdGraphPin_7743''
+[2015.04.01-00.03.14:376][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:376][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:376][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7797) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_21.EdGraphPin_7411).  Import failed...
+[2015.04.01-00.03.14:376][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2357.EdGraphPin_7797''
+[2015.04.01-00.03.14:377][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:377][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:377][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7800) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_21.EdGraphPin_7416).  Import failed...
+[2015.04.01-00.03.14:377][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2357.EdGraphPin_7800''
+[2015.04.01-00.03.14:378][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:378][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:378][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7799) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_274.EdGraphPin_7779).  Import failed...
+[2015.04.01-00.03.14:378][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2357.EdGraphPin_7799''
+[2015.04.01-00.03.14:379][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:379][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:379][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7799) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_276.EdGraphPin_7785).  Import failed...
+[2015.04.01-00.03.14:379][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2357.EdGraphPin_7799''
+[2015.04.01-00.03.14:380][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:380][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357
+[2015.04.01-00.03.14:380][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7799) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_278.EdGraphPin_7791).  Import failed...
+[2015.04.01-00.03.14:381][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2357.EdGraphPin_7799''
+[2015.04.01-00.03.14:383][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_678 or K2Node_VariableSet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_678
+[2015.04.01-00.03.14:383][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableSet_678.EdGraphPin_7905) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7798).  Import failed...
+[2015.04.01-00.03.14:383][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_678.EdGraphPin_7905''
+[2015.04.01-00.03.14:383][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_446 or K2Node_VariableGet /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_446
+[2015.04.01-00.03.14:383][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_VariableGet_446.EdGraphPin_7815) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2357.EdGraphPin_7799).  Import failed...
+[2015.04.01-00.03.14:383][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_446.EdGraphPin_7815''
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_32 or K2Node_CallFunctionOnMember /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunctionOnMember_32
+[2015.04.01-00.03.14:387][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunctionOnMember_32.EdGraphPin_8090) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7822).  Import failed...
+[2015.04.01-00.03.14:387][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunctionOnMember_32.EdGraphPin_8090''
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2645 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2645
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2645 or K2Node_CallFunction /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2645
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2645 or K2Node_CallFunction /Game/Prototype_Room_1/ParentClass/PickableObject.PickableObject:EventGraph.K2Node_CallFunction_2645
+[2015.04.01-00.03.14:387][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_2645.EdGraphPin_7839) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7824).  Import failed...
+[2015.04.01-00.03.14:387][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2645.EdGraphPin_7839''
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Table_1.Table_1:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:387][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Door_withKey.Door_withKey:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:388][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Prototype_Room_1/Door.Door:EventGraph.K2Node_IfThenElse_164
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_164.EdGraphPin_7870) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7825).  Import failed...
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_164.EdGraphPin_7870''
+[2015.04.01-00.03.14:388][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7858) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7825).  Import failed...
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_163.EdGraphPin_7858''
+[2015.04.01-00.03.14:388][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_165 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_165
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_165.EdGraphPin_7882) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7825).  Import failed...
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_165.EdGraphPin_7882''
+[2015.04.01-00.03.14:388][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162 or K2Node_IfThenElse /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room:PersistentLevel.Prototype_Room.EventGraph.K2Node_IfThenElse_162
+[2015.04.01-00.03.14:388][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_162
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_162.EdGraphPin_7894) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallArrayFunction_25.EdGraphPin_7825).  Import failed...
+[2015.04.01-00.03.14:388][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_162.EdGraphPin_7894''
+[2015.04.01-00.03.14:393][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ComponentBoundEvent /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_ComponentBoundEvent_219 or K2Node_ComponentBoundEvent /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_219
+[2015.04.01-00.03.14:393][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_219.EdGraphPin_7396) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7857).  Import failed...
+[2015.04.01-00.03.14:393][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_219.EdGraphPin_7396''
+[2015.04.01-00.03.14:394][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7617) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7859).  Import failed...
+[2015.04.01-00.03.14:394][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4058.EdGraphPin_7617''
+[2015.04.01-00.03.14:395][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ComponentBoundEvent /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_ComponentBoundEvent_223 or K2Node_ComponentBoundEvent /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_223
+[2015.04.01-00.03.14:395][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_223.EdGraphPin_7385) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164.EdGraphPin_7869).  Import failed...
+[2015.04.01-00.03.14:395][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_223.EdGraphPin_7385''
+[2015.04.01-00.03.14:395][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4059.EdGraphPin_7635) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_164.EdGraphPin_7871).  Import failed...
+[2015.04.01-00.03.14:396][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4059.EdGraphPin_7635''
+[2015.04.01-00.03.14:397][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ComponentBoundEvent /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_ComponentBoundEvent_226 or K2Node_ComponentBoundEvent /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_226
+[2015.04.01-00.03.14:397][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_226.EdGraphPin_7374) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_165.EdGraphPin_7881).  Import failed...
+[2015.04.01-00.03.14:397][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_226.EdGraphPin_7374''
+[2015.04.01-00.03.14:397][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_4060.EdGraphPin_7653) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_165.EdGraphPin_7883).  Import failed...
+[2015.04.01-00.03.14:397][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4060.EdGraphPin_7653''
+[2015.04.01-00.03.14:399][527]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ComponentBoundEvent /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_ComponentBoundEvent_230 or K2Node_ComponentBoundEvent /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_230
+[2015.04.01-00.03.14:399][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_ComponentBoundEvent_230.EdGraphPin_7363) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162.EdGraphPin_7893).  Import failed...
+[2015.04.01-00.03.14:399][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_230.EdGraphPin_7363''
+[2015.04.01-00.03.14:399][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_CallFunction_3668.EdGraphPin_7671) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_162.EdGraphPin_7895).  Import failed...
+[2015.04.01-00.03.14:399][527]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3668.EdGraphPin_7671''
+[2015.04.01-00.03.14:408][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button1_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:408][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button1_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:408][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button2_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:408][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button2_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:408][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button3_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button3_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button4_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button4_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button1_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button2_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:409][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button3_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:410][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Button4_On' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:415][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key4' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:415][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key3' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:415][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key2' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:415][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key1' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:475][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key1' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:475][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key2' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:476][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key3' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:477][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'Key4' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:480][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'DoorCanOpen' variable not found. Base class was probably changed.
+[2015.04.01-00.03.14:480][527]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'DoorCanOpen' variable not found. Base class was probably changed.
+[2015.04.01-00.04.28:545][ 70]LogEditorTransaction: Undo Move Nodes
+[2015.04.01-00.04.30:807][290]LogEditorTransaction: Undo Delete current selection
+[2015.04.01-00.06.08:991][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000205A27A0
+[2015.04.01-00.06.09:831][740]LogSavePackage: Save=716.937256ms
+[2015.04.01-00.06.09:831][740]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Prototype_Room_Auto119D2B1D043D91C7D18596997729B2CD9.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/FirstPerson/Maps/Prototype_Room_Auto1.umap'
+[2015.04.01-00.06.09:865][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPerson/Maps/Prototype_Room' took 0.898
+[2015.04.01-00.06.09:865][740]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.898
+[2015.04.01-00.06.09:901][740]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/Lever] ([1] browsable assets)...
+[2015.04.01-00.06.09:976][740]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/Lever.Lever]
+[2015.04.01-00.06.09:976][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/Lever]
+[2015.04.01-00.06.10:483][740]LogSavePackage: Save=485.512543ms
+[2015.04.01-00.06.10:484][740]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Lever_Auto1C23E3A674BE8EFA47652DCB7F835106F.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/Lever_Auto1.uasset'
+[2015.04.01-00.06.10:525][740]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/PuzzleTableStone] ([1] browsable assets)...
+[2015.04.01-00.06.10:583][740]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone]
+[2015.04.01-00.06.10:583][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/PuzzleTableStone]
+[2015.04.01-00.06.11:148][740]LogSavePackage: Save=532.842285ms
+[2015.04.01-00.06.11:148][740]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/PuzzleTableStone_Auto10D6BC52F475B66C86C8B069B579528C9.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/PuzzleTableStone_Auto1.uasset'
+[2015.04.01-00.06.11:283][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Prototype_Room_1/Levier_Grille] ([1] browsable assets)...
+[2015.04.01-00.06.11:283][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/Levier_Grille]
+[2015.04.01-00.06.11:490][740]LogSavePackage: Save=152.750870ms
+[2015.04.01-00.06.11:490][740]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille_Auto108F28C294542FC35656E0CA853684029.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/Levier_Grille_Auto1.uasset'
+[2015.04.01-00.06.11:496][740]LogFileHelpers: Auto-saving content packages took 1.631
+[2015.04.01-00.13.34:296][ 99]LogEditorTransaction: Undo Delete current selection
+[2015.04.01-00.16.12:375][ 82]LogSavePackage: Save=767.131042ms
+[2015.04.01-00.16.12:375][ 82]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Prototype_Room_Auto292D4325F4585D67F49FE78A55A679CA6.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/FirstPerson/Maps/Prototype_Room_Auto2.umap'
+[2015.04.01-00.16.12:404][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPerson/Maps/Prototype_Room' took 0.899
+[2015.04.01-00.16.12:404][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.899
+[2015.04.01-00.16.12:438][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/PuzzleTableStone] ([1] browsable assets)...
+[2015.04.01-00.16.12:459][ 82]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone]
+[2015.04.01-00.16.12:459][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/PuzzleTableStone]
+[2015.04.01-00.16.12:888][ 82]LogSavePackage: Save=417.171417ms
+[2015.04.01-00.16.12:889][ 82]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/PuzzleTableStone_Auto247FD1B5445F00ACF3091C18A631F479C.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/PuzzleTableStone_Auto2.uasset'
+[2015.04.01-00.16.12:926][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/Levier_Grille] ([1] browsable assets)...
+[2015.04.01-00.16.12:963][ 82]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/Levier_Grille.Levier_Grille]
+[2015.04.01-00.16.12:963][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/Levier_Grille]
+[2015.04.01-00.16.13:535][ 82]LogSavePackage: Save=569.391846ms
+[2015.04.01-00.16.13:536][ 82]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille_Auto2F5D7C46E43EFD4968443E1AA2C5DE265.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/Levier_Grille_Auto2.uasset'
+[2015.04.01-00.16.13:619][ 82]LogFileHelpers: Auto-saving content packages took 1.214
+[2015.04.01-00.16.59:688][123]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.16.59:690][123]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163
+[2015.04.01-00.16.59:690][123]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7859) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7617).  Import failed...
+[2015.04.01-00.16.59:690][123]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_163.EdGraphPin_7859''
+[2015.04.01-00.16.59:690][123]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55
+[2015.04.01-00.16.59:690][123]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7767) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7618).  Import failed...
+[2015.04.01-00.16.59:690][123]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_55.EdGraphPin_7767''
+[2015.04.01-00.16.59:691][123]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55
+[2015.04.01-00.16.59:691][123]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7768) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7621).  Import failed...
+[2015.04.01-00.16.59:691][123]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_55.EdGraphPin_7768''
+[2015.04.01-00.17.05:279][772]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.17.05:281][772]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_163 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163
+[2015.04.01-00.17.05:281][772]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_163.EdGraphPin_7859) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7617).  Import failed...
+[2015.04.01-00.17.05:281][772]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_163.EdGraphPin_7859''
+[2015.04.01-00.17.05:281][772]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55
+[2015.04.01-00.17.05:281][772]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7767) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7618).  Import failed...
+[2015.04.01-00.17.05:281][772]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_55.EdGraphPin_7767''
+[2015.04.01-00.17.05:282][772]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_IfThenElse_55 or K2Node_IfThenElse /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55
+[2015.04.01-00.17.05:282][772]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone:EventGraph.K2Node_IfThenElse_55.EdGraphPin_7768) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_4058.EdGraphPin_7621).  Import failed...
+[2015.04.01-00.17.05:282][772]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_55.EdGraphPin_7768''
+[2015.04.01-00.17.40:930][578]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.01-00.17.48:858][486]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Prototype_Room_1/Levier_Grille.Levier_Grille from Actor to ObjectInteraction_C...
+[2015.04.01-00.17.48:859][486]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.17.48:878][486]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.17.48:882][486]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.17.48:882][486]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Button2_On" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Button2_On 
+[2015.04.01-00.17.48:882][486]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.17.48:884][486]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.17.48:898][486]LogBlueprint:Error: [compiler] Error The property associated with  Button 2 On  could not be found
+[2015.04.01-00.17.48:899][486]LogBlueprint:Error: [compiler] Error The property associated with  Door Can Open  could not be found
+[2015.04.01-00.17.49:092][486]LogBlueprint:Warning: [compiler] Warning [1347.53] Compile of Levier_Grille failed. 3 Fatal Issue(s) 4 Warning(s) [in 232 ms]
+[2015.04.01-00.17.49:109][486]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.17.49:109][486]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.17.49:109][486]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Button2_On" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Button2_On 
+[2015.04.01-00.17.49:109][486]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.17.49:109][486]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.17.49:110][486]BlueprintEditorCompileResults:Error: Error The property associated with  Button 2 On  could not be found
+[2015.04.01-00.17.49:110][486]BlueprintEditorCompileResults:Error: Error The property associated with  Door Can Open  could not be found
+[2015.04.01-00.17.49:110][486]BlueprintEditorCompileResults:Warning: Warning [1347.53] Compile of Levier_Grille failed. 3 Fatal Issue(s) 4 Warning(s) [in 232 ms]
+[2015.04.01-00.25.17:506][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:506][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:506][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:506][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:506][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:507][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:507][223]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.25.17:509][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_373 or K2Node_VariableGet /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableGet_373
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableGet_373.EdGraphPin_4305) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509.EdGraphPin_4288).  Import failed...
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_373.EdGraphPin_4305''
+[2015.04.01-00.25.17:509][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_380 or K2Node_VariableGet /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableGet_380
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableGet_380.EdGraphPin_4311) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509.EdGraphPin_4289).  Import failed...
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_380.EdGraphPin_4311''
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_Timeline_36.EdGraphPin_4188) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509.EdGraphPin_4290).  Import failed...
+[2015.04.01-00.25.17:509][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_36.EdGraphPin_4188''
+[2015.04.01-00.25.17:510][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_52 or K2Node_CallFunctionOnMember /Game/Prototype_Room_1/PilarPuzzle_Pillar_Blueprint.PilarPuzzle_Pillar_Blueprint:UserConstructionScript.K2Node_CallFunctionOnMember_52
+[2015.04.01-00.25.17:510][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_52 or K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunctionOnMember_52
+[2015.04.01-00.25.17:510][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunctionOnMember_52.EdGraphPin_4344) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509.EdGraphPin_4292).  Import failed...
+[2015.04.01-00.25.17:510][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunctionOnMember_52.EdGraphPin_4344''
+[2015.04.01-00.25.17:512][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_Timeline_36.EdGraphPin_4183) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_52.EdGraphPin_4341).  Import failed...
+[2015.04.01-00.25.17:512][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_36.EdGraphPin_4183''
+[2015.04.01-00.25.17:514][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_Timeline_36.EdGraphPin_4184) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200.EdGraphPin_4359).  Import failed...
+[2015.04.01-00.25.17:514][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_36.EdGraphPin_4184''
+[2015.04.01-00.25.17:514][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2483 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2483
+[2015.04.01-00.25.17:514][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2483 or K2Node_CallFunction /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2483
+[2015.04.01-00.25.17:515][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2483.EdGraphPin_4380) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200.EdGraphPin_4361).  Import failed...
+[2015.04.01-00.25.17:515][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2483.EdGraphPin_4380''
+[2015.04.01-00.25.17:516][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2483 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2483
+[2015.04.01-00.25.17:516][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2483 or K2Node_CallFunction /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2483
+[2015.04.01-00.25.17:516][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2483.EdGraphPin_4379) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableGet_365.EdGraphPin_4372).  Import failed...
+[2015.04.01-00.25.17:516][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2483.EdGraphPin_4379''
+[2015.04.01-00.25.17:525][223]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'isActivated' variable not found. Base class was probably changed.
+[2015.04.01-00.25.17:525][223]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'isActivated' variable not found. Base class was probably changed.
+[2015.04.01-00.25.17:525][223]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'isActivated' variable not found. Base class was probably changed.
+[2015.04.01-00.25.17:525][223]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'RotationStart' variable not found. Base class was probably changed.
+[2015.04.01-00.25.17:526][223]LogBlueprint:Warning: [Levier_Grille] CreatePinForVariable: 'RotationEnd' variable not found. Base class was probably changed.
+[2015.04.01-00.26.20:774][604]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPerson/Maps/Prototype_Room' took 0.026
+[2015.04.01-00.26.20:812][604]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/Levier_Grille] ([1] browsable assets)...
+[2015.04.01-00.26.20:852][604]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/Levier_Grille.Levier_Grille]
+[2015.04.01-00.26.20:852][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/Levier_Grille]
+[2015.04.01-00.26.21:456][604]LogSavePackage: Save=601.266357ms
+[2015.04.01-00.26.21:487][604]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille_Auto3C10F560B476B9965B0C621888D40A005.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/Levier_Grille_Auto3.uasset'
+[2015.04.01-00.26.21:602][604]LogFileHelpers: Auto-saving content packages took 0.829
+[2015.04.01-00.27.14:155][734]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.01-00.27.14:160][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:ExecuteUbergraph_Levier_Grille.K2Node_CallFunction_2760 or K2Node_CallFunction /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2760
+[2015.04.01-00.27.14:160][734]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2760.EdGraphPin_4318) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_36.EdGraphPin_4179).  Import failed...
+[2015.04.01-00.27.14:160][734]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2760.EdGraphPin_4318''
+[2015.04.01-00.27.14:160][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_52 or K2Node_CallFunctionOnMember /Game/Prototype_Room_1/PilarPuzzle_Pillar_Blueprint.PilarPuzzle_Pillar_Blueprint:UserConstructionScript.K2Node_CallFunctionOnMember_52
+[2015.04.01-00.27.14:160][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunctionOnMember_52 or K2Node_CallFunctionOnMember /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunctionOnMember_52
+[2015.04.01-00.27.14:160][734]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunctionOnMember_52.EdGraphPin_4341) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_36.EdGraphPin_4183).  Import failed...
+[2015.04.01-00.27.14:160][734]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunctionOnMember_52.EdGraphPin_4341''
+[2015.04.01-00.27.14:161][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_200
+[2015.04.01-00.27.14:161][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200 or K2Node_VariableSet /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableSet_200
+[2015.04.01-00.27.14:161][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200 or K2Node_VariableSet /Game/Prototype_Room_1/Door_withKey.Door_withKey:EventGraph.K2Node_VariableSet_200
+[2015.04.01-00.27.14:161][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_VariableSet_200 or K2Node_VariableSet /Game/Prototype_Room_1/Door.Door:EventGraph.K2Node_VariableSet_200
+[2015.04.01-00.27.14:161][734]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_VariableSet_200.EdGraphPin_4359) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_36.EdGraphPin_4184).  Import failed...
+[2015.04.01-00.27.14:161][734]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_200.EdGraphPin_4359''
+[2015.04.01-00.27.14:162][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2509
+[2015.04.01-00.27.14:162][734]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_CallFunction_2509 or K2Node_CallFunction /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2509
+[2015.04.01-00.27.14:162][734]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Prototype_Room_1/Lever.Lever:EventGraph.K2Node_CallFunction_2509.EdGraphPin_4290) from referencer (EdGraphPin /Game/Prototype_Room_1/Levier_Grille.Levier_Grille:EventGraph.K2Node_Timeline_36.EdGraphPin_4188).  Import failed...
+[2015.04.01-00.27.14:162][734]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2509.EdGraphPin_4290''
+[2015.04.01-00.27.23:086][777]LogEditorTransaction: Undo Move Node
+[2015.04.01-00.27.23:906][823]LogEditorTransaction: Undo Delete current selection
+[2015.04.01-00.28.27:127][ 89]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.28.27:128][ 89]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.28.27:130][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.28.27:130][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.28.27:130][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get isActivated 
+[2015.04.01-00.28.27:130][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set isActivated 
+[2015.04.01-00.28.27:132][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.28.27:132][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.28.27:133][ 89]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.28.27:135][ 89]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.28.27:235][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 9 Warning(s) [in 122 ms]
+[2015.04.01-00.28.27:235][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.04.01-00.28.27:235][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 11 Warning(s) [in 0 ms]
+[2015.04.01-00.28.27:239][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 12 Warning(s) [in 4 ms]
+[2015.04.01-00.28.27:239][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.04.01-00.28.27:240][ 89]LogBlueprint:Warning: [compiler] Warning [1985.66] Compile of Levier_Grille failed. 1 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.04.01-00.28.36:044][ 49]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.28.36:045][ 49]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.28.36:047][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.28.36:047][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.28.36:047][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get isActivated 
+[2015.04.01-00.28.36:047][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set isActivated 
+[2015.04.01-00.28.36:048][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.28.36:049][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.28.36:049][ 49]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.28.36:051][ 49]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.28.36:161][ 49]LogBlueprint:Warning: [compiler] Warning [1994.58] Compile of Levier_Grille failed. 1 Fatal Issue(s) 9 Warning(s) [in 130 ms]
+[2015.04.01-00.28.36:162][ 49]LogBlueprint:Warning: [compiler] Warning [1994.59] Compile of Levier_Grille failed. 1 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.04.01-00.28.36:162][ 49]LogBlueprint:Warning: [compiler] Warning [1994.59] Compile of Levier_Grille failed. 1 Fatal Issue(s) 11 Warning(s) [in 0 ms]
+[2015.04.01-00.28.36:167][ 49]LogBlueprint:Warning: [compiler] Warning [1994.59] Compile of Levier_Grille failed. 1 Fatal Issue(s) 12 Warning(s) [in 4 ms]
+[2015.04.01-00.28.36:167][ 49]LogBlueprint:Warning: [compiler] Warning [1994.59] Compile of Levier_Grille failed. 1 Fatal Issue(s) 13 Warning(s) [in 0 ms]
+[2015.04.01-00.28.36:167][ 49]LogBlueprint:Warning: [compiler] Warning [1994.59] Compile of Levier_Grille failed. 1 Fatal Issue(s) 14 Warning(s) [in 0 ms]
+[2015.04.01-00.29.32:927][613]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.29.32:956][613]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.29.32:957][613]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.29.32:958][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.29.32:959][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.29.32:959][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get isActivated 
+[2015.04.01-00.29.32:959][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set isActivated 
+[2015.04.01-00.29.32:961][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.29.32:961][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.29.32:961][613]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.29.32:964][613]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.29.33:112][613]LogBlueprint:Warning: [compiler] Warning [2051.54] Compile of Levier_Grille failed. 1 Fatal Issue(s) 9 Warning(s) [in 185 ms]
+[2015.04.01-00.29.33:112][613]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.29.33:112][613]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.29.33:112][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.29.33:112][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.29.33:112][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get isActivated 
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isActivated" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set isActivated 
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.29.33:113][613]BlueprintEditorCompileResults:Warning: Warning [2051.54] Compile of Levier_Grille failed. 1 Fatal Issue(s) 9 Warning(s) [in 185 ms]
+[2015.04.01-00.30.17:901][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.30.18:412][833]LogSavePackage: Save=510.076508ms
+[2015.04.01-00.30.18:412][833]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille5C274D1541BE5F7C2A7A4E9DEE3D45D7.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.30.19:383][947]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.30.19:403][947]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.30.19:404][947]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.30.19:406][947]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.30.19:406][947]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.30.19:408][947]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.30.19:408][947]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.30.19:408][947]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.30.19:411][947]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.19:546][947]LogBlueprint:Warning: [compiler] Warning [2097.97] Compile of Levier_Grille failed. 1 Fatal Issue(s) 7 Warning(s) [in 162 ms]
+[2015.04.01-00.30.19:546][947]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.30.19:546][947]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DoorCanOpen" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set DoorCanOpen 
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.19:547][947]BlueprintEditorCompileResults:Warning: Warning [2097.97] Compile of Levier_Grille failed. 1 Fatal Issue(s) 7 Warning(s) [in 162 ms]
+[2015.04.01-00.30.55:250][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.30.55:811][ 65]LogSavePackage: Save=527.592407ms
+[2015.04.01-00.30.55:811][ 65]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_GrilleB485E1E64534620A622273A0EDEFB0F3.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.30.56:379][130]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.30.56:407][130]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.30.56:409][130]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.30.56:412][130]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.30.56:412][130]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.30.56:414][130]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.30.56:414][130]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.30.56:418][130]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.56:418][130]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.56:419][130]LogBlueprint:Error: [compiler] Error The property associated with  Rotation Start  could not be found
+[2015.04.01-00.30.56:419][130]LogBlueprint:Error: [compiler] Error The property associated with  Rotation End  could not be found
+[2015.04.01-00.30.56:547][130]LogBlueprint:Warning: [compiler] Warning [2134.97] Compile of Levier_Grille failed. 4 Fatal Issue(s) 6 Warning(s) [in 167 ms]
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationEnd" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationEnd 
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RotationStart" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get RotationStart 
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.30.56:547][130]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.30.56:548][130]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.56:548][130]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.30.56:548][130]BlueprintEditorCompileResults:Error: Error The property associated with  Rotation Start  could not be found
+[2015.04.01-00.30.56:548][130]BlueprintEditorCompileResults:Error: Error The property associated with  Rotation End  could not be found
+[2015.04.01-00.30.56:548][130]BlueprintEditorCompileResults:Warning: Warning [2134.97] Compile of Levier_Grille failed. 4 Fatal Issue(s) 6 Warning(s) [in 167 ms]
+[2015.04.01-00.31.28:693][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.31.29:204][753]LogSavePackage: Save=499.279968ms
+[2015.04.01-00.31.29:204][753]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille2AE9AD3045412C7FE333FB9815625ED7.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.31.29:601][800]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.31.29:620][800]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.31.29:621][800]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.31.29:626][800]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.31.29:626][800]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.31.29:628][800]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.31.29:628][800]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.31.29:767][800]LogBlueprint:Warning: [compiler] Warning [2168.19] Compile of Levier_Grille failed. 2 Fatal Issue(s) 4 Warning(s) [in 165 ms]
+[2015.04.01-00.31.29:767][800]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.31.29:767][800]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Trigger' variable not found. Base class was probably changed.
+[2015.04.01-00.31.29:767][800]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.31.29:767][800]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Trigger" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Get Overlapping Actors 
+[2015.04.01-00.31.29:767][800]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.31.29:768][800]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.31.29:768][800]BlueprintEditorCompileResults:Warning: Warning [2168.19] Compile of Levier_Grille failed. 2 Fatal Issue(s) 4 Warning(s) [in 165 ms]
+[2015.04.01-00.31.57:798][999]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.01-00.32.59:180][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.32.59:674][880]LogSavePackage: Save=477.206909ms
+[2015.04.01-00.32.59:674][880]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_GrilleC8E2B0364B294D0F0D8474AB4A02883C.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.33.00:172][939]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.33.00:236][939]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.33.00:243][939]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.33.00:246][939]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.33.00:394][939]LogBlueprint:Warning: [compiler] Warning [2258.81] Compile of Levier_Grille failed. 1 Fatal Issue(s) 2 Warning(s) [in 222 ms]
+[2015.04.01-00.33.00:394][939]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Lever' variable not found. Base class was probably changed.
+[2015.04.01-00.33.00:394][939]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Lever" in 'Levier_Grille_C'.
+Make sure 'Levier_Grille_C' has been compiled for  Set Relative Rotation 
+[2015.04.01-00.33.00:394][939]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.01-00.33.00:394][939]BlueprintEditorCompileResults:Warning: Warning [2258.81] Compile of Levier_Grille failed. 1 Fatal Issue(s) 2 Warning(s) [in 222 ms]
+[2015.04.01-00.34.14:932][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.34.15:405][307]LogSavePackage: Save=462.888519ms
+[2015.04.01-00.34.15:405][307]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille7FD5C4C84677DF2CF496C39EDAAE5FE5.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.34.15:844][359]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.34.15:942][359]BlueprintEditorCompileResults: Info [2334.36] Compile of Levier_Grille successful! [in 97 ms]
+[2015.04.01-00.34.46:843][840]LogStaticMesh: Building static mesh Levier_part1...
+[2015.04.01-00.34.46:885][840]LogStaticMesh: Built static mesh [41.799976ms] /Game/Prototype_Room_1/Component/Levier_part1.Levier_part1
+[2015.04.01-00.35.02:787][164]LogSavePackage: Save=771.366394ms
+[2015.04.01-00.35.02:787][164]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Prototype_Room7239254249171A138D04C7954C0D22A3.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/Prototype_Room.umap'
+[2015.04.01-00.35.03:508][229]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.35.03:517][229]LogPlayLevel: [PIE] Compiling Lever before PIE...
+[2015.04.01-00.35.03:604][229]LogPlayLevel: [PIE] Compiling PuzzleTableStone before PIE...
+[2015.04.01-00.35.03:746][229]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.35.03:932][229]LogPlayLevel: PIE:  Blueprint regeneration took 424 ms (3 blueprints)
+[2015.04.01-00.35.03:932][229]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:35:03 PM)
+[2015.04.01-00.35.04:026][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093189s)
+[2015.04.01-00.35.04:026][229]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2015.04.01-00.35.04:026][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.094044s)
+[2015.04.01-00.35.04:080][229]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.35.04:083][229]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.35.04:140][229]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.35.04
+[2015.04.01-00.35.04:143][229]LogWorld: Bringing up level for play took: 0.059840
+[2015.04.01-00.35.04:147][229]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.837
+[2015.04.01-00.35.07:737][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040F4C360
+[2015.04.01-00.35.13:715][855]LogEditorViewport: Clicking on Actor (context menu): Brush (Linear Stair Brush)
+[2015.04.01-00.35.16:361][ 85]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.35.16:365][ 85]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.35.16:527][ 85]LogPlayLevel: PIE:  Blueprint regeneration took 165 ms (1 blueprints)
+[2015.04.01-00.35.16:527][ 85]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:35:16 PM)
+[2015.04.01-00.35.16:602][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074542s)
+[2015.04.01-00.35.16:603][ 85]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2015.04.01-00.35.16:603][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.075278s)
+[2015.04.01-00.35.16:642][ 85]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.35.16:644][ 85]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.35.16:688][ 85]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.35.16
+[2015.04.01-00.35.16:692][ 85]LogWorld: Bringing up level for play took: 0.047356
+[2015.04.01-00.35.16:719][ 85]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room -0.592
+[2015.04.01-00.35.22:201][527]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.35.22:201][527]LogBlueprintUserMessages: Levier
+[2015.04.01-00.35.34:805][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A8E2E80
+[2015.04.01-00.35.39:794][793]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.35.39:799][793]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.35.39:985][793]LogPlayLevel: PIE:  Blueprint regeneration took 191 ms (1 blueprints)
+[2015.04.01-00.35.39:985][793]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:35:39 PM)
+[2015.04.01-00.35.40:075][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089536s)
+[2015.04.01-00.35.40:076][793]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2015.04.01-00.35.40:076][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.090525s)
+[2015.04.01-00.35.40:131][793]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.35.40:136][793]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.35.40:192][793]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.35.40
+[2015.04.01-00.35.40:198][793]LogWorld: Bringing up level for play took: 0.060879
+[2015.04.01-00.35.40:203][793]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.892
+[2015.04.01-00.35.41:197][874]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.35.41:197][874]LogBlueprintUserMessages: Levier
+[2015.04.01-00.35.48:624][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000279534C0
+[2015.04.01-00.36.49:577][212]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.36.51:615][350]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.36.51:621][350]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.36.51:777][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012501DA0
+[2015.04.01-00.36.51:782][350]LogPlayLevel: PIE:  Blueprint regeneration took 166 ms (1 blueprints)
+[2015.04.01-00.36.51:782][350]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:36:51 PM)
+[2015.04.01-00.36.51:877][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094682s)
+[2015.04.01-00.36.51:878][350]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2015.04.01-00.36.51:878][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.095396s)
+[2015.04.01-00.36.51:927][350]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.36.51:930][350]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.36.52:009][350]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.36.52
+[2015.04.01-00.36.52:018][350]LogWorld: Bringing up level for play took: 0.087106
+[2015.04.01-00.36.52:022][350]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.71
+[2015.04.01-00.36.54:745][629]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.36.54:745][629]LogBlueprintUserMessages: Levier
+[2015.04.01-00.37.02:712][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DC96CA0
+[2015.04.01-00.38.19:615][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.38.20:121][189]LogSavePackage: Save=477.105103ms
+[2015.04.01-00.38.20:121][189]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille776313B34D02FDBF1889A8BD9F97FD27.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.38.20:451][226]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.38.20:558][226]BlueprintEditorCompileResults: Info [2578.97] Compile of Levier_Grille successful! [in 106 ms]
+[2015.04.01-00.38.23:133][463]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.38.25:150][608]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.38.25:156][608]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.38.25:343][608]LogPlayLevel: PIE:  Blueprint regeneration took 192 ms (1 blueprints)
+[2015.04.01-00.38.25:343][608]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:38:25 PM)
+[2015.04.01-00.38.25:427][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082798s)
+[2015.04.01-00.38.25:427][608]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2015.04.01-00.38.25:428][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.083654s)
+[2015.04.01-00.38.25:474][608]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.38.25:478][608]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.38.25:550][608]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.38.25
+[2015.04.01-00.38.25:553][608]LogWorld: Bringing up level for play took: 0.073619
+[2015.04.01-00.38.25:556][608]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.241
+[2015.04.01-00.38.32:806][255]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.38.32:807][255]LogBlueprintUserMessages: Levier
+[2015.04.01-00.38.50:786][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032D52DE0
+[2015.04.01-00.38.57:864][286]LogEditorViewport: Clicking on Actor (LMB): Levier_Grille_C (Levier_Grille)
+[2015.04.01-00.39.06:727][859]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.39.09:995][ 90]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.39.09:999][ 90]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.39.10:201][ 90]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (1 blueprints)
+[2015.04.01-00.39.10:201][ 90]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:39:10 PM)
+[2015.04.01-00.39.10:287][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085736s)
+[2015.04.01-00.39.10:288][ 90]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2015.04.01-00.39.10:288][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.086467s)
+[2015.04.01-00.39.10:330][ 90]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.39.10:334][ 90]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.39.10:417][ 90]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.39.10
+[2015.04.01-00.39.10:421][ 90]LogWorld: Bringing up level for play took: 0.085335
+[2015.04.01-00.39.10:422][ 90]LogGameMode:Warning: Couldn't spawn Pawn of type FirstPersonCharacter_C at PlayerStartPIE_4
+[2015.04.01-00.39.10:423][ 90]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 1.107
+[2015.04.01-00.39.13:984][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E91FE20
+[2015.04.01-00.39.33:687][939]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.39.33:691][939]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.39.33:851][939]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2015.04.01-00.39.33:851][939]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:39:33 PM)
+[2015.04.01-00.39.33:946][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094327s)
+[2015.04.01-00.39.33:946][939]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2015.04.01-00.39.33:947][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.095094s)
+[2015.04.01-00.39.33:979][939]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.39.33:983][939]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.39.34:049][939]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.39.34
+[2015.04.01-00.39.34:052][939]LogWorld: Bringing up level for play took: 0.067487
+[2015.04.01-00.39.34:055][939]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.739
+[2015.04.01-00.39.35:278][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DBD8B80
+[2015.04.01-00.39.46:524][639]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.39.49:156][814]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.39.49:162][814]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.39.49:353][814]LogPlayLevel: PIE:  Blueprint regeneration took 196 ms (1 blueprints)
+[2015.04.01-00.39.49:353][814]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:39:49 PM)
+[2015.04.01-00.39.49:436][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082853s)
+[2015.04.01-00.39.49:437][814]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.04.01-00.39.49:437][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.083631s)
+[2015.04.01-00.39.49:476][814]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.39.49:482][814]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.39.49:547][814]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.39.49
+[2015.04.01-00.39.49:550][814]LogWorld: Bringing up level for play took: 0.067408
+[2015.04.01-00.39.49:552][814]LogGameMode:Warning: Couldn't spawn Pawn of type FirstPersonCharacter_C at PlayerStartPIE_5
+[2015.04.01-00.39.49:553][814]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.237
+[2015.04.01-00.39.51:429][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022D5ADE0
+[2015.04.01-00.39.53:210][139]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.39.53:213][139]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.39.53:369][139]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (1 blueprints)
+[2015.04.01-00.39.53:370][139]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:39:53 PM)
+[2015.04.01-00.39.53:457][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087391s)
+[2015.04.01-00.39.53:458][139]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2015.04.01-00.39.53:458][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.088160s)
+[2015.04.01-00.39.53:491][139]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.39.53:494][139]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.39.53:566][139]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.39.53
+[2015.04.01-00.39.53:571][139]LogWorld: Bringing up level for play took: 0.075203
+[2015.04.01-00.39.53:575][139]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.259
+[2015.04.01-00.39.57:333][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029F927A0
+[2015.04.01-00.40.00:291][619]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.40.01:625][698]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.40.01:631][698]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.40.01:797][698]LogPlayLevel: PIE:  Blueprint regeneration took 171 ms (1 blueprints)
+[2015.04.01-00.40.01:797][698]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:40:01 PM)
+[2015.04.01-00.40.01:905][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107685s)
+[2015.04.01-00.40.01:906][698]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2015.04.01-00.40.01:906][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.108487s)
+[2015.04.01-00.40.01:946][698]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.40.01:948][698]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.40.02:000][698]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.40.02
+[2015.04.01-00.40.02:004][698]LogWorld: Bringing up level for play took: 0.055407
+[2015.04.01-00.40.02:007][698]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.69
+[2015.04.01-00.40.04:682][969]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.40.04:682][969]LogBlueprintUserMessages: Levier
+[2015.04.01-00.40.19:922][478]LogBlueprintUserMessages: Still Locked
+[2015.04.01-00.40.19:922][478]LogBlueprintUserMessages: Lever clicked
+[2015.04.01-00.40.22:665][725]LogBlueprintUserMessages: Still Locked
+[2015.04.01-00.40.22:665][725]LogBlueprintUserMessages: Lever clicked
+[2015.04.01-00.40.24:861][924]LogBlueprintUserMessages: Still Locked
+[2015.04.01-00.40.24:861][924]LogBlueprintUserMessages: Lever clicked
+[2015.04.01-00.40.27:667][206]LogBlueprintUserMessages: Still Locked
+[2015.04.01-00.40.27:667][206]LogBlueprintUserMessages: Lever clicked
+[2015.04.01-00.40.35:858][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E91C860
+[2015.04.01-00.40.55:917][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.40.56:387][197]LogSavePackage: Save=435.241882ms
+[2015.04.01-00.40.56:387][197]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_GrilleBE1DA6774833FDB98502E8B7F36CCC55.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.40.56:778][239]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.40.56:896][239]BlueprintEditorCompileResults: Info [2735.31] Compile of Levier_Grille successful! [in 117 ms]
+[2015.04.01-00.41.54:532][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.41.55:163][322]LogSavePackage: Save=602.113892ms
+[2015.04.01-00.41.55:163][322]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille64E50BE54627BA4211A405A025E61869.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.41.55:725][388]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.41.55:840][388]BlueprintEditorCompileResults: Info [2794.25] Compile of Levier_Grille successful! [in 114 ms]
+[2015.04.01-00.41.59:904][734]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cave_Wall12)
+[2015.04.01-00.42.01:972][874]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.42.01:975][874]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.42.02:162][874]LogPlayLevel: PIE:  Blueprint regeneration took 190 ms (1 blueprints)
+[2015.04.01-00.42.02:163][874]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:42:02 PM)
+[2015.04.01-00.42.02:245][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082023s)
+[2015.04.01-00.42.02:246][874]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2015.04.01-00.42.02:246][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.082804s)
+[2015.04.01-00.42.02:277][874]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.42.02:281][874]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.42.02:324][874]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.42.02
+[2015.04.01-00.42.02:327][874]LogWorld: Bringing up level for play took: 0.046231
+[2015.04.01-00.42.02:330][874]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 1.012
+[2015.04.01-00.42.15:712][309]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.42.15:713][309]LogBlueprintUserMessages: Levier
+[2015.04.01-00.42.21:301][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DBD9B20
+[2015.04.01-00.42.28:812][428]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.01-00.42.30:805][553]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.42.30:809][553]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.42.31:002][553]LogPlayLevel: PIE:  Blueprint regeneration took 196 ms (1 blueprints)
+[2015.04.01-00.42.31:002][553]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:42:31 PM)
+[2015.04.01-00.42.31:085][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082468s)
+[2015.04.01-00.42.31:086][553]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2015.04.01-00.42.31:086][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.083186s)
+[2015.04.01-00.42.31:132][553]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.42.31:135][553]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.42.31:209][553]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.42.31
+[2015.04.01-00.42.31:212][553]LogWorld: Bringing up level for play took: 0.077372
+[2015.04.01-00.42.31:215][553]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room -0.104
+[2015.04.01-00.42.40:047][481]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.42.40:047][481]LogBlueprintUserMessages: Levier
+[2015.04.01-00.42.41:745][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021566C00
+[2015.04.01-00.42.42:852][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.01-00.42.43:456][791]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.43.42:192][944]LogEditorTransaction: Undo Create Pin Link
+[2015.04.01-00.44.28:238][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.44.28:772][178]LogSavePackage: Save=514.226135ms
+[2015.04.01-00.44.28:772][178]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille6A90FA444D369D792266B09DC3C78D7B.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.44.29:190][224]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.44.29:283][224]BlueprintEditorCompileResults: Info [2947.69] Compile of Levier_Grille successful! [in 93 ms]
+[2015.04.01-00.44.54:817][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.44.55:418][935]LogSavePackage: Save=583.963257ms
+[2015.04.01-00.44.55:418][935]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_GrilleDFD8CCDC4C3E44BC623FBA9FEA52D745.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.44.55:800][980]BlueprintLog: New page: Compile Levier_Grille
+[2015.04.01-00.44.55:908][980]BlueprintEditorCompileResults: Info [2974.31] Compile of Levier_Grille successful! [in 107 ms]
+[2015.04.01-00.44.57:989][190]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SupportBeamStone_Mesh10)
+[2015.04.01-00.45.00:148][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.45.00:157][357]LogPlayLevel: [PIE] Compiling Lever before PIE...
+[2015.04.01-00.45.00:231][357]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.45.00:409][357]LogPlayLevel: PIE:  Blueprint regeneration took 261 ms (2 blueprints)
+[2015.04.01-00.45.00:409][357]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:45:00 PM)
+[2015.04.01-00.45.00:483][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073782s)
+[2015.04.01-00.45.00:484][357]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2015.04.01-00.45.00:484][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.074903s)
+[2015.04.01-00.45.00:526][357]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.45.00:528][357]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.45.00:574][357]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.45.00
+[2015.04.01-00.45.00:578][357]LogWorld: Bringing up level for play took: 0.048907
+[2015.04.01-00.45.00:581][357]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 1.259
+[2015.04.01-00.45.05:889][908]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.45.05:889][908]LogBlueprintUserMessages: Levier
+[2015.04.01-00.45.26:138][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003BA989A0
+[2015.04.01-00.45.27:127][870]LogEditorViewport: Clicking on Actor (LMB): Levier_Grille_C (Levier_Grille)
+[2015.04.01-00.46.01:173][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.46.01:675][584]LogSavePackage: Save=486.866058ms
+[2015.04.01-00.46.01:675][584]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_Grille3FB01335499E6ED024B761951755E391.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.46.32:719][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype_Room_1/Levier_Grille" FILE="../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset" SILENT=true
+[2015.04.01-00.46.32:788][ 23]LogSavePackage: Save=54.401421ms
+[2015.04.01-00.46.32:788][ 23]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Levier_GrilleB14CE92F4BD4E876D3E3299A3819B403.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/Prototype_Room_1/Levier_Grille.uasset'
+[2015.04.01-00.46.51:043][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.01-00.46.51:595][178]LogEditorViewport: Clicking on Actor (LMB): Levier_Grille_C (Levier_Grille)
+[2015.04.01-00.46.52:631][280]Cmd: DELETE
+[2015.04.01-00.46.52:631][280]Cmd: ACTOR DELETE
+[2015.04.01-00.46.52:634][280]LogEditorActor: Deleted Actor: Levier_Grille_C
+[2015.04.01-00.46.52:654][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011611300
+[2015.04.01-00.46.52:654][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EA147C0
+[2015.04.01-00.46.52:659][280]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.04.01-00.46.56:184][558]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.46.57:198][642]Cmd: DELETE
+[2015.04.01-00.46.57:198][642]Cmd: ACTOR DELETE
+[2015.04.01-00.46.57:201][642]LogEditorActor: Deleted Actor: Levier_Part_1_C
+[2015.04.01-00.46.57:222][642]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.04.01-00.47.41:883][982]LogStaticMesh: Building static mesh Coffre1...
+[2015.04.01-00.47.41:925][982]LogStaticMesh: Built static mesh [42.649433ms] /Game/Prototype_Room_1/Coffre1.Coffre1
+[2015.04.01-00.47.41:960][982]LogStaticMesh: Building static mesh Coffre2...
+[2015.04.01-00.47.41:995][982]LogStaticMesh: Built static mesh [34.456444ms] /Game/Prototype_Room_1/Coffre2.Coffre2
+[2015.04.01-00.48.09:075][764]LogSavePackage: Save=680.933899ms
+[2015.04.01-00.48.09:075][764]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Prototype_Room_Auto4A83E7EDD464407CFA012728A3F3F5C12.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/FirstPerson/Maps/Prototype_Room_Auto4.umap'
+[2015.04.01-00.48.09:102][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPerson/Maps/Prototype_Room' took 0.816
+[2015.04.01-00.48.09:102][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.816
+[2015.04.01-00.48.09:144][764]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/Lever] ([1] browsable assets)...
+[2015.04.01-00.48.09:182][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/Lever.Lever]
+[2015.04.01-00.48.09:182][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/Lever]
+[2015.04.01-00.48.09:691][764]LogSavePackage: Save=496.301605ms
+[2015.04.01-00.48.09:691][764]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Lever_Auto412A3DB7A46BE6A19FC8B30983C31C6D6.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/Lever_Auto4.uasset'
+[2015.04.01-00.48.09:734][764]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prototype_Room_1/PuzzleTableStone] ([1] browsable assets)...
+[2015.04.01-00.48.09:782][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Prototype_Room_1/PuzzleTableStone.PuzzleTableStone]
+[2015.04.01-00.48.09:782][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prototype_Room_1/PuzzleTableStone]
+[2015.04.01-00.48.10:300][764]LogSavePackage: Save=481.840637ms
+[2015.04.01-00.48.10:301][764]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/PuzzleTableStone_Auto46C5E66DF477BE4DFA46C9C9D0F1F1DBE.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Autosaves/Game/Prototype_Room_1/PuzzleTableStone_Auto4.uasset'
+[2015.04.01-00.48.10:313][764]LogFileHelpers: Auto-saving content packages took 1.210
+[2015.04.01-00.49.01:279][581]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.49.02:094][663]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.49.02:672][712]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.49.38:812][444]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.49.44:017][995]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.49.47:308][349]Cmd: TRANSACTION UNDO
+[2015.04.01-00.49.47:308][349]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.01-00.50.01:088][404]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.50.06:894][ 31]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.50.08:582][213]LogEditorViewport: Clicking on Actor (LMB): Levier_Part_1_C (Levier_Part_1)
+[2015.04.01-00.50.12:440][629]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.50.15:502][920]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2015.04.01-00.50.16:571][ 27]Cmd: DELETE
+[2015.04.01-00.50.16:571][ 27]Cmd: ACTOR DELETE
+[2015.04.01-00.50.16:574][ 27]LogEditorActor: Deleted Actor: PointLight
+[2015.04.01-00.50.16:608][ 27]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2015.04.01-00.51.01:253][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Prototype_Room_1/Component'
+[2015.04.01-00.51.04:940][235]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Prototype_Room_1'
+[2015.04.01-00.52.13:213][828]LogEditorViewport: Clicking on Actor (LMB): Table_1_C (Table_1)
+[2015.04.01-00.52.16:461][ 90]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Box_Brush_StaticMesh2)
+[2015.04.01-00.52.18:187][244]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.52.18:196][244]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.52.18:388][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039437380
+[2015.04.01-00.52.18:393][244]LogPlayLevel: PIE:  Blueprint regeneration took 206 ms (1 blueprints)
+[2015.04.01-00.52.18:394][244]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:52:18 PM)
+[2015.04.01-00.52.18:480][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085736s)
+[2015.04.01-00.52.18:481][244]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2015.04.01-00.52.18:481][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.086965s)
+[2015.04.01-00.52.18:514][244]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.52.18:517][244]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.52.18:578][244]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.52.18
+[2015.04.01-00.52.18:582][244]LogWorld: Bringing up level for play took: 0.063807
+[2015.04.01-00.52.18:585][244]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 1.254
+[2015.04.01-00.52.21:923][563]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.52.21:923][563]LogBlueprintUserMessages: Key_Coffre
+[2015.04.01-00.52.24:525][816]LogBlueprintUserMessages: Object Found in Inventory
+[2015.04.01-00.52.24:525][816]LogBlueprintUserMessages: Chest  Unlocked
+[2015.04.01-00.52.29:287][267]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.52.29:287][267]LogBlueprintUserMessages: 
+[2015.04.01-00.52.33:593][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CF685E0
+[2015.04.01-00.52.48:151][588]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.52.48:725][638]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.52.50:483][816]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.52.50:947][859]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.53.25:713][528]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.53.26:389][598]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.53.34:777][196]LogEditorActor: Deleted Actor: PointLight
+[2015.04.01-00.53.34:803][196]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2015.04.01-00.53.52:271][317]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.04.01-00.53.53:530][441]Cmd: DELETE
+[2015.04.01-00.53.53:530][441]Cmd: ACTOR DELETE
+[2015.04.01-00.53.53:533][441]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.04.01-00.53.53:563][441]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.01-00.54.05:975][504]LogEditorViewport: Clicking on Actor (LMB): Coffre_withKey_C (Coffre_withKey)
+[2015.04.01-00.54.08:665][784]Cmd: TRANSACTION UNDO
+[2015.04.01-00.54.08:665][784]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.01-00.54.50:656][147]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Box_Brush_StaticMesh2)
+[2015.04.01-00.54.52:826][317]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.54.52:830][317]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.54.53:007][317]LogPlayLevel: PIE:  Blueprint regeneration took 180 ms (1 blueprints)
+[2015.04.01-00.54.53:007][317]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:54:53 PM)
+[2015.04.01-00.54.53:083][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075665s)
+[2015.04.01-00.54.53:084][317]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2015.04.01-00.54.53:084][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.076531s)
+[2015.04.01-00.54.53:117][317]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.54.53:119][317]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.54.53:174][317]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.54.53
+[2015.04.01-00.54.53:178][317]LogWorld: Bringing up level for play took: 0.058022
+[2015.04.01-00.54.53:182][317]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room -0.152
+[2015.04.01-00.55.09:904][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A2D2F20
+[2015.04.01-00.55.28:086][392]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Box_Brush_StaticMesh2)
+[2015.04.01-00.55.29:945][525]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.01-00.55.29:948][525]LogPlayLevel: [PIE] Compiling Prototype_Room before PIE...
+[2015.04.01-00.55.30:115][525]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2015.04.01-00.55.30:116][525]PIE: New page: PIE session: Prototype_Room (Mar 31, 2015, 4:55:30 PM)
+[2015.04.01-00.55.30:194][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078389s)
+[2015.04.01-00.55.30:195][525]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2015.04.01-00.55.30:195][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Prototype_Room.Prototype_Room to /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room (0.079147s)
+[2015.04.01-00.55.30:230][525]LogWorld: Game class is 'ProjectVR_v2GameMode'
+[2015.04.01-00.55.30:232][525]LogAIModule: Creating AISystem for world Prototype_Room
+[2015.04.01-00.55.30:282][525]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room.Prototype_Room up for play (max tick rate 0) at 2015.03.31-20.55.30
+[2015.04.01-00.55.30:285][525]LogWorld: Bringing up level for play took: 0.052882
+[2015.04.01-00.55.30:288][525]PIE: Info Play in editor start time for /Game/FirstPerson/Maps/UEDPIE_0_Prototype_Room 0.954
+[2015.04.01-00.55.34:536][925]LogBlueprintUserMessages: Added to inventory
+[2015.04.01-00.55.34:536][925]LogBlueprintUserMessages: Key_Coffre
+[2015.04.01-00.55.35:864][ 51]LogBlueprintUserMessages: Object Found in Inventory
+[2015.04.01-00.55.35:864][ 51]LogBlueprintUserMessages: Chest  Unlocked
+[2015.04.01-00.55.48:185][259]LogBlueprintUserMessages: Object Not Found in Inventory
+[2015.04.01-00.55.49:832][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002061D120
+[2015.04.01-00.57.06:193][446]LogSavePackage: Save=712.410583ms
+[2015.04.01-00.57.06:193][446]LogSavePackage: Moving '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Saved/Prototype_RoomB43FBCEC47A860BD5910799E47C5C678.tmp' to '../../../../../../Users/utilisateur/Documents/GitHub/ProjectVR_v2/Content/FirstPerson/Maps/Prototype_Room.umap'
+[2015.04.01-00.57.22:687][672]Cmd: QUIT_EDITOR
+[2015.04.01-00.57.22:954][672]LogExit: Preparing to exit.
+[2015.04.01-00.57.24:153][672]LogExit: Editor shut down
+[2015.04.01-00.57.24:154][672]LogExit: Transaction tracking system shut down
+[2015.04.01-00.57.24:154][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D424D60
+[2015.04.01-00.57.24:157][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002053D9E0
+[2015.04.01-00.57.24:158][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001636F7E0
+[2015.04.01-00.57.24:158][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000135B2E80
+[2015.04.01-00.57.24:159][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F4F37E0
+[2015.04.01-00.57.24:159][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F4F0EA0
+[2015.04.01-00.57.24:159][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED91580
+[2015.04.01-00.57.24:159][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000172BB420
+[2015.04.01-00.57.24:251][672]LogExit: Object subsystem successfully closed.
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module DistCurveEditor (180)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module Matinee (179)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module StatsViewer (178)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.04.01-00.57.24:308][672]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.04.01-00.57.24:309][672]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.04.01-00.57.24:499][672]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.04.01-00.57.24:500][672]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.04.01-00.57.24:604][672]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.04.01-00.57.24:604][672]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.04.01-00.57.24:604][672]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.04.01-00.57.24:605][672]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.04.01-00.57.24:606][672]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.04.01-00.57.24:796][672]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.04.01-00.57.24:797][672]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.04.01-00.57.24:798][672]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.04.01-00.57.24:799][672]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.04.01-00.57.24:799][672]LogModuleManager: Shutting down and abandoning module ProjectVR_v2 (81)
+[2015.04.01-00.57.24:799][672]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.01-00.57.24:799][672]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.01-00.57.24:899][672]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.01-00.57.24:899][672]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.01-00.57.24:903][672]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.01-00.57.24:904][672]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.01-00.57.24:908][672]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.01-00.57.24:968][672]LogDerivedDataCache: Shutdown
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.01-00.57.24:968][672]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.01-00.57.24:969][672]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.01-00.57.24:973][672]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.01-00.57.24:974][672]LogExit: Exiting.
+[2015.04.01-00.57.25:000][672]Log file closed, 03/31/15 20:57:25
